@@ -37,7 +37,7 @@ section .main_box1{background-color: rgba(127, 255, 212, 0.2); text-align: cente
 footer{border-top: 1px solid #ccc; margin: 150px 0 10px 0; color: #777;}
 footer div{margin: 0 100px;}
 footer #bottom-menu{list-style: none; text-align: center; display: flex; justify-content: center;
-                 align-items: center; padding-left: 0px;}
+                 align-items: center;}
     
 footer #bottom-menu li{
     padding: 0 30px;
