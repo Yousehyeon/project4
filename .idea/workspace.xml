@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e57fcab9-d82c-4da7-8ca5-896d58389943" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/css/kangminstyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/kangminstyle2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/detail_경상도.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/minstyle(복사본).css" beforeDir="false" afterPath="$PROJECT_DIR$/min_images/minhtmlbo/minstyle(복사본).css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/minstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/min_images/minhtmlbo/minstyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/min_images/minhtmlbo/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/detail_부산3.html" beforeDir="false" afterPath="$PROJECT_DIR$/detail_부산3.html" afterDir="false" />
+    <list default="true" id="8211aa7e-9ea1-4fea-b545-afc1af1de1d2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/travel/min_project/css/gjstyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel/min_project/css/style(백업용).css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel/min_project/detail_경상권.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/css/kangminstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/travel/min_project/css/kangminstyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/css/kangminstyle2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/travel/min_project/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/detail_경상도2.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="2RWcoXyiMu6IdK1xv4oeh1IdPgC" />
+  <component name="ProjectId" id="2RaiP1hrRU2zWzj6NFtWg70vkJt" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,26 +31,23 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/green_project/강/project4/css"
+    "last_opened_file_path": "C:/green_project/project_team1/travel/min_project/css"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\green_project\강\project4\css" />
-      <recent name="C:\green_project\강\project4" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\green_project\강\project4\min_images\minhtmlbo" />
+      <recent name="C:\green_project\project_team1\travel\min_project\css" />
+      <recent name="C:\green_project\project_team1\travel\min_project" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e57fcab9-d82c-4da7-8ca5-896d58389943" name="Changes" comment="" />
-      <created>1687369452650</created>
+      <changelist id="8211aa7e-9ea1-4fea-b545-afc1af1de1d2" name="Changes" comment="" />
+      <created>1687494564170</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1687369452650</updated>
+      <updated>1687494564170</updated>
     </task>
     <servers />
   </component>
