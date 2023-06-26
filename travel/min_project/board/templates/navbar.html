@@ -1,6 +1,8 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
+        <!-- 왼쪽 그린 로고 -->
         <a class="navbar-brand" href="#">그린투어</a>
+        <!-- 버튼 -->
         <button class="navbar-toggler" type="button" data-bs-tolle="collapse">
             <span class="navbar-toggler-toggler-icon"></span>
         </button>
@@ -13,7 +15,7 @@
                         {{ user.username }}(로그아웃)
                     </a>
                     {% else %}
-                    <a class="nav-link" href="{% url 'common2:signin' %}">로그인</a>
+                    <a class="nav-link" href="{% url 'common2:signin' %}">회원가입</a>
                     {% endif %}
                 </li>
                 <!--<li class="nav-item">
@@ -21,7 +23,5 @@
                 </li>-->
             </ul>
         </div>
-
-
     </div>
 </nav>

@@ -50,7 +50,7 @@ def answer_create(request, question_id):
             answer.question = question          # 외래키 저장
             answer.create_date = timezone.now()
             answer.save()   # 실제 저장
-            return redirect('board:detail', qustion_id=question.id)
+            return redirect('board:detail', question_id=question.id)
     else:
         form = AnswerForm()
     context = {'question': question, 'form': form}
