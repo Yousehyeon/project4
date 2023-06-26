@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="container my-3">
+  <section id="login">
+    <div class="row">
+      <div class="col-4">
+        <h4>로그인</h4>
+      </div>
+      <div class="col-8 text-end">
+        <span>
+          또는<a href="{% url 'common2:signup' %}">계정을 만드세요</a>
+        </span>
+      </div>
+    </div>
+    <form action="{% url 'common2:signin' %}" method="post" class="my-3">
+      {% csrf_token %}
+      <!--유효성 검사-->
+      {% include 'from_errors.html' %}
+      <div class="form-group">
+        <label for="username">사용자ID</label>
+        <input type="text" class="form-control" id="username" name="username"
+               value="{{ form.username.value|default_if_none:''}}">
+        <!-- name 속성값은 반드시 username으로 함-->
+      </div>
+      <div class="form-group">
+        <label for="password">비밀번호</label>
+        <input type="password" class="form-control" id="password" name="password"
+               value="{{ form.password.value|default_if_none:''}}">
+        <!-- name은 반드시 password로 함 -->
+      </div>
+      <button type="submit" class="btn btn-primary">로그인</button>
+    </form>
+
+  </section>
+</div>
+</body>
+</html>

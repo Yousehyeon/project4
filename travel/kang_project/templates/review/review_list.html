@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>여행후기게시판</title>
+</head>
+<body>
+    <h1>여행후기 / 댓글 게시판</h1>
+    {% if review_list %}
+        {% for review in review_list %}
+        정상실행!!
+        <ul>
+            <li>
+                <a href="{% url 'review:review_detail' review.id %}">
+                    {{ review.subject }}
+                </a>
+            </li>
+        </ul>
+        {% endfor%}
+    {% else %}
+        <p>리뷰가 없습니다.</p>
+    {% endif %}
+    <a href="{% url 'review:review_create' %}">리뷰 등록</a>
+</body>
+</html>

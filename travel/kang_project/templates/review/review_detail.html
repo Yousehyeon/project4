@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Q & A 상세보기</title>
+</head>
+<body>
+    <h1>{{ review.subject }}</h1>
+    <div>
+        {{ review.content }}
+    </div>
+        <h5>{{ review.answer_set.count }}개의 답변이 있습니다.</h5>
+    <div>
+        <ul>
+            {% for answer in review.answer_set.all %}
+                <li>{{ answer.content }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+<form action="{% url 'review:answer_create' review.id %}" method="post">
+    {% csrf_token %}
+    <div>
+        <textarea name="content" id="content" rows="10" cols="40">
+
+        </textarea>
+    </div>
+    <input type="submit" value="답변 등록">
+</form>
+</body>
+</html>

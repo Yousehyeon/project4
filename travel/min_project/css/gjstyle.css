@@ -22,7 +22,7 @@
 #gj_top{padding: 50px 0; display: flex; justify-content: center; align-items: center;
                      box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2);}
 
-#gj_top > img{float: left; overflow: hidden;}
+#gj_top > img{float: left; overflow: hidden; cursor: pointer;}
 #gj_top img{width: 340px; height: 300px; border-radius: 30px; transition: all 0.2s linear; overflow: hidden;}
 #gj_top img:hover{transform: scale(1.05); overflow: hidden;}
 #gj_top img:nth-of-type(2){width: 340px; height: 300px;}
@@ -57,9 +57,9 @@
 .min_content .mini_info .detail{height: 130px; font-size: 16px;}
 
 /* 반응형 태블릿 버전 */
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1310px){
     /* ============도 소개 ============ */
-    #gangwon_wrap{/*width: 1100px;*/ width: 100%; margin:0 auto; text-align: center;}
+    #gangwon_wrap{width: 100%; margin:0 auto; text-align: center;}
 
     #gj_top{box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2); width: 652.25px; display: inline-block;}
     #gj_top:nth-child(1){height: 600px;}
@@ -68,10 +68,7 @@
     #gj_top:nth-child(4){height: 660px;}
     #gj_top:nth-child(5){height: 635px;}
 
-    #gj_top > img{overflow: hidden;}
-    #gj_top img{width: 340px; height: 300px; border-radius: 30px; transition: all 0.2s linear; overflow: hidden; }
-    #gj_top img:hover{transform: scale(1.05); overflow: hidden;}
-    #gj_top .i2{margin-left: -30px;}
+    #gj_top img{float: left;}   /* a태그로 - 정렬필요 */
 
     #gj_top #gj_topInfo{display: inline-block; margin-left: 0;}
     #gj_top .gj_topInfo1, #gj_top .gj_topInfo2{margin: 20px auto 0 auto;}
@@ -86,10 +83,12 @@
     /* ============ miniImg_wrap 스타일 ============ */
     /* miniImg_wrap 전체 */
     .miniImg_wrap1, .miniImg_wrap2, .miniImg_wrap3, .miniImg_wrap4, .miniImg_wrap5{
-        margin-bottom: 90px; padding: 50px auto; /*border: 1px solid #000;*/}
+        margin-bottom: 90px; padding: 50px auto;
+        /*border: 1px solid #000;*/}
     .miniImg_wrap1 .miniFont1{margin-top: 200px;}
 
-    .miniFont1{margin: 50px 0 40px 0; padding: 50px auto; font-size: 25px;}
+    .miniFont1{margin: 50px 0 40px 0; padding: 50px auto;}
+    .miniFont1 > h1 > strong{text-shadow: 1px 1px 3px; font-size: 40px;} /* 글자 그림자 줘봤음 */
 
     /* ============ min_content 스타일 ============ */
     /* min_content img [전체] */
@@ -118,5 +117,10 @@
     .min_content .mini_info a{text-decoration: none; font-size: 0.9em;}
     .min_content .mini_info a:hover{font-weight: bold; color: blueviolet;}
 
+
+}
+
+/* 반응형 태블릿 버전 */
+@media screen and (max-width: 780px){
 
 }
