@@ -76,7 +76,7 @@ header .navbar ul li ul{
 
 header .navbar ul li ul li{
     width: 100%;
-    border-top: 1px solid rgba(0,0,0,.1);
+    border-top: 1px solid rgba(0,0,0,.0.1);
 }
 
 /*오른쪽에나오는거 왼쪽으로이동*/
@@ -132,7 +132,7 @@ header label{
         position: absolute;
         top: 100%; left: 0; right: 0;
         background: #fff;
-        border-top: 1px solid rgba(0, 0, 0, 1);
+        border-top: 1px solid rgba(0, 0, 0, 0.2);
         display: none;
     }
 

@@ -1,7 +1,10 @@
 from django.contrib.auth.decorators import login_required
+from django.core.paginator import Paginator
 from django.http import HttpResponse
 from django.shortcuts import render, redirect, get_object_or_404
 from django.utils import timezone
+from datetime import datetime
+
 
 from board.forms import QuestionForm, AnswerForm
 from board.models import Question, Answer
@@ -18,7 +21,12 @@ def question_list(request):
     # return HttpResponse("welcome 안녕")
     # 작성일 기준으로 내림차순 정렬 - -create_date : 작성한 날짜의 역순으로 정렬
     question_list = Question.objects.order_by('-create_date')
-    context = {'question_list': question_list}
+
+    # 페이지 처리
+    page = request.GET.get('page', '1')
+    paginator = Paginator(question_list, 10)    #페이지당 10개씩 보여주기
+    page_obj = paginator.get_page(page)
+    context = {'question_list': page_obj}
     return render(request, 'board/question_list.html', context)
 
 

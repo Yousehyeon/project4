@@ -3,7 +3,7 @@
 <div class="container my-3">
   <form method="post">
     {% csrf_token %}
-    {% include 'from_errors.html' %}
+    {% include 'form_errors.html' %}
     <div class="form-group">
       <label for="content">내용</label>
       <textarea class="form-control" id="content" name="content"
