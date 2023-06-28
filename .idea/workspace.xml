@@ -5,13 +5,696 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8211aa7e-9ea1-4fea-b545-afc1af1de1d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/travel/min_project/css/gjstyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/travel/min_project/css/style(백업용).css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/travel/min_project/detail_경상권.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travel/min_project/css/kangminstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/travel/min_project/css/kangminstyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travel/min_project/css/kangminstyle2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/travel/min_project/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/travel/min_project/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travel/min_project/detail_경상도2.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/css/accodion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/css/gjstyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/css/head.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/detail_서울3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/detail_수도권.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/detail_충청_전라권.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/경기/gyeonggi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/경기/gyeonggi2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/경기/가평 자라섬/자라섬 배경.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/경기/가평 자라섬/자라섬1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/경기/가평 자라섬/자라섬2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/경기/가평 자라섬/자라섬3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/경기/광명 동굴/광명1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/경기/광명 동굴/광명2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/경기/광명 동굴/광명4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/경기/수원 화성/화성 배경.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/경기/수원 화성/화성1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/경기/수원 화성/화성2.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/경기/수원 화성/화성3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/경기/수원 화성/화성4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/N서울타워/서울타워 배경.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/N서울타워/서울타워1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/N서울타워/서울타워2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/N서울타워/서울타워3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/seoul.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/seoul2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/경복궁/경복궁 배경.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/경복궁/경복궁1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/경복궁/경복궁2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/경복궁/경복궁3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/경복궁/경복궁4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/경복궁/경복궁5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/낙산공원/낙산공원 배경.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/낙산공원/낙산공원1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/낙산공원/낙산공원2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/낙산공원/낙산공원3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/낙산공원/낙산공원4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/롯데월드 어드벤처/롯데월드 배경.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/롯데월드 어드벤처/롯데월드1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/롯데월드 어드벤처/롯데월드2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/롯데월드 어드벤처/롯데월드3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/롯데월드 어드벤처/롯데월드4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/롯데월드 어드벤처/롯데월드5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/롯데월드타워/롯데월드타워1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/롯데월드타워/롯데월드타워2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/롯데월드타워/롯데월드타워3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/롯데월드타워/롯데월드타워4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/롯데월드타워/롯데월드타워5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/서울숲/서울숲 배경.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/서울숲/서울숲1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/서울숲/서울숲2.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/서울숲/서울숲3.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/서울숲/서울숲4.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/여의도한강공원/한강공원 배경.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/여의도한강공원/한강공원1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/여의도한강공원/한강공원2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/여의도한강공원/한강공원3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/여의도한강공원/한강공원4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/여의도한강공원/한강공원5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/청계천/청계천 배경.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/청계천/청계천1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/청계천/청계천2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/청계천/청계천3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/청와대/청와대 배경.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/청와대/청와대1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/청와대/청와대2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/청와대/청와대3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/청와대/청와대4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/코엑스/코엑스 배경.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/코엑스/코엑스1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/코엑스/코엑스2.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/서울/코엑스/코엑스3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/인천/incheon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/인천/incheon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/인천/송도/송도 배경.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/인천/송도/송도1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/인천/송도/송도2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/인천/송도/송도3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/인천/송도/송도4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/인천/월미도/월미도1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/인천/월미도/월미도2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/인천/월미도/월미도3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/인천/월미도/월미도4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/인천/을왕리/을왕리 배경.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/인천/을왕리/을왕리1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/인천/을왕리/을왕리2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/인천/을왕리/을왕리3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/인천/인천대교/인천대교 배경.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/인천/인천대교/인천대교1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/인천/인천대교/인천대교2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/인천/인천대교/인천대교3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/인천/차이나타운/차이나타운 배경.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/인천/차이나타운/차이나타운1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/인천/차이나타운/차이나타운2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/인천/차이나타운/차이나타운3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/images_min/busan/부산해녀촌3-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/js/accordion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/side/detail_아코디언.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/전라충청images/slides/slides이미지1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/전라충청images/slides/slides이미지2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/전라충청images/slides/slides이미지3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/전라충청images/전라도/Jeonju.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/전라충청images/전라도/Jeonju1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/전라충청images/전라도/Seokjeong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/전라충청images/전라도/Seokjeong1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/전라충청images/전라도/maisan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/전라충청images/전라도/maisan1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/전라충청images/전라도/고산자연휴양림.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/전라충청images/전라도/덕유산.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/전라충청images/전라도/전라도메인.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/전라충청images/전라도/전라도메인2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/전라충청images/전라도/전라도메인3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/전라충청images/전라도/전주동물원.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/전라충청images/전라도/전주수목원.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/전라충청images/충청도/공주한옥.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/전라충청images/충청도/선샤인.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/전라충청images/충청도/선샤인2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/전라충청images/충청도/안면도.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/전라충청images/충청도/옥계폭포.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/전라충청images/충청도/옥계폭포2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel준완성/travel민정/전라충청images/충청도/의림지.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/.idea/kang_project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/css/gjstyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/css/kangminstyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/detail_강원_제주권.html" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/detail_강원_제주권.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/detail_수도권.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/detail_충청_전라권.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/greentour_index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/images/campfire.png" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images/campfire.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/images/gangneung1.png" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images/gangneung1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/images/gangneung2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images/gangneung2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/images/gangneung3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images/gangneung3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/images/greenboat.png" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images/greenboat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/images/korea.png" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images/korea.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/images/sokcho1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images/sokcho1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/images/sokcho2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images/sokcho2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/images/sokcho3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images/sokcho3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/images/강원1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images/강원1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/images/설악산.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images/설악산.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/images/제주1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images/제주1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/images/한라산.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images/한라산.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/images2/강원1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images2/강원1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/images2/강원2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images2/강원2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/images2/강원3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images2/강원3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/images2/강원강릉1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images2/강원강릉1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/images2/강원강릉2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images2/강원강릉2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/images2/강원강릉3(대체이미지).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images2/강원강릉3(대체이미지).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/images2/강원강릉3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images2/강원강릉3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/images2/강원강릉4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images2/강원강릉4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/images2/강원속초1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images2/강원속초1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/images2/강원속초2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images2/강원속초2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/images2/강원속초3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images2/강원속초3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/images2/강원속초4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images2/강원속초4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/images2/강원속초5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images2/강원속초5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/images2/강원속초6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images2/강원속초6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/images2/강원춘천1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images2/강원춘천1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/images2/강원춘천2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images2/강원춘천2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/images2/강원춘천3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images2/강원춘천3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/images2/강원춘천4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images2/강원춘천4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/images2/서귀포시1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images2/서귀포시1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/images2/서귀포시2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images2/서귀포시2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/images2/서귀포시3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images2/서귀포시3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/images2/서귀포시4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images2/서귀포시4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/images2/제주시1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images2/제주시1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/images2/제주시2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images2/제주시2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/images2/제주시3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images2/제주시3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/images2/제주시4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images2/제주시4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/js/main_js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/여행리스트/강원도ㅊㅊ.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/kang_project/여행리스트/제주도ㅊㅊ.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/.idea/first_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/.idea/first_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/css/bootstrap-grid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/css/bootstrap-grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/css/bootstrap-grid.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/css/bootstrap-grid.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/css/bootstrap-grid.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/css/bootstrap-grid.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/css/bootstrap-grid.rtl.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/css/bootstrap-grid.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/css/bootstrap-grid.rtl.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/css/bootstrap-reboot.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/css/bootstrap-reboot.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/css/bootstrap-reboot.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/css/bootstrap-reboot.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/css/bootstrap-reboot.rtl.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/css/bootstrap-reboot.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/css/bootstrap-reboot.rtl.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/css/bootstrap-utilities.css" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/css/bootstrap-utilities.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/css/bootstrap-utilities.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/css/bootstrap-utilities.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/css/bootstrap-utilities.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/css/bootstrap-utilities.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/css/bootstrap-utilities.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/css/bootstrap-utilities.rtl.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/css/bootstrap-utilities.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/css/bootstrap-utilities.rtl.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/css/bootstrap.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/css/bootstrap.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/css/bootstrap.rtl.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/css/bootstrap.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/css/bootstrap.rtl.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/js/bootstrap.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/js/bootstrap.esm.js" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/js/bootstrap.esm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/js/bootstrap.esm.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/js/bootstrap.esm.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/js/bootstrap.esm.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/js/bootstrap.esm.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/js/bootstrap.esm.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/js/bootstrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/js/bootstrap.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap-5.1.3-dist/js/bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap-5.1.3-dist/js/bootstrap.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/bootstrap/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/css/gjstyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/css/kangminstyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/css/style(백업용).css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/detail_경상권.html" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/detail_경상권.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/detail_경상도.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/detail_부산3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/greentour_index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/images/campfire.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/images/greenboat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/images/sokcho1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/images/sokcho2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/images/sokcho3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/js/main_js.js" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/js/main_js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/UN기념공원.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/UN묘지.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/UpR7VjGh70B3iEr2t899C1r1b5XJXMhPNLFT34ME3-o0J5Pjg4k8aYWfC9tNzqjvJLrrwjnJ7TPvgS45GTWuow.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/감천동문화마을.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/광안대교.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/광안대교2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/광안대교3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/광안대로 야경.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/광안대로 야경2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/광안대로 야경3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/광안리 (10).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/광안리 (11).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/광안리 (12).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/광안리 (13).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/광안리 (14).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/광안리 (15).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/광안리 (16).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/광안리 (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/광안리 (20).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/광안리 (21).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/광안리 (22).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/광안리 (6).JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/광안리 (8).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/광안리 (9).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/국제시장.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/국제시장_먹자골목9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/금정산.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images3/경기/광명 동굴/광명3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/금정산성 동문.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/금정산성 서문 설경.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/금정산성 설경.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/금정산성.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/금정산성과 등산로.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/금정체육공원.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/낙동강 하구 철새.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (1).webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (10).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (11).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (12).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (13).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (14).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (15).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (16).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (17).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (18).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (19).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (20).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (21).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (22).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (23).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (24).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (25).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (26).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (27).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (28).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (29).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (30).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (31).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (32).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (33).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (34).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images_min/busan/남포동 (34).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (35).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (36).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (37).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (38).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (39).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (4).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (40).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (41).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (42).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (43).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (44).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (45).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (5).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (6).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (7).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (8).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/남포동 (9).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/다대포꿈의낙조분수 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/다대포꿈의낙조분수 (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/다대포꿈의낙조분수 (3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/동래읍성지 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/동래읍성지 (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/동래읍성지 (3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/롯데월드아쿠아리움.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/롯데월드아쿠아리움.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/롯데월드아쿠아리움10.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/롯데월드아쿠아리움2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/롯데월드아쿠아리움2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/롯데월드아쿠아리움3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/롯데월드아쿠아리움4.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/롯데월드아쿠아리움5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/롯데월드아쿠아리움6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/롯데월드아쿠아리움7.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/롯데월드아쿠아리움8.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/롯데월드아쿠아리움9.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/마린시티 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/마린시티 (4).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/마린시티 (5).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/마린시티 (7).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/몰운대 전경.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/문화회관 내부전경.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/범어사.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/범어사2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/부산뮤지엄원.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/부산뮤지엄원2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/부산뮤지엄원3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/부산뮤지엄원4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/부산뮤지엄원5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/부산불꽃축제 (1).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images_min/busan/부산불꽃축제 (1).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/부산불꽃축제 (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/부산불꽃축제 (10).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/부산불꽃축제 (11).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/부산불꽃축제 (12).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/부산불꽃축제 (13).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/부산불꽃축제 (14).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/부산불꽃축제 (15).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/부산불꽃축제 (16).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/부산불꽃축제 (17).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/부산불꽃축제 (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/부산불꽃축제 (3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/부산불꽃축제 (4).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/부산불꽃축제 (5).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/부산불꽃축제 (6).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/부산불꽃축제 (7).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/부산불꽃축제 (8).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/부산불꽃축제 (9).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/부산불꽃축제.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/부산아시아드경기대회.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/부산아시아드경기대회2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/부산타워와 야경.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/부산항 야경.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/부산해녀촌3-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/부산해녀촌3-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/부산해녀촌3-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/부산해녀촌3-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/부산해녀촌3-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/부산해녀촌3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/서면 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/서면 (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/서면 (3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/서면 (4).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/서면.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/서면걷기 1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/센텀시티.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/송도해상케이블카.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/송도해상케이블카2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/송도해상케이블카3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/송도해수욕장.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/송정해수욕장.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/수영사적공원.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/수영사적공원2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/수영사적공원3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/신세계프리미엄아울렛.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/아미르공원.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/아미르공원2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/영도대교1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/영도대교2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/영도대교3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/영도청학배수지전망대1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/영도청학배수지전망대2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/영도청학배수지전망대3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/영도청학배수지전망대4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/영도청학배수지전망대5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/영도청학배수지전망대6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/영도청학배수지전망대7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/영도희여울길.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/영도희여울길2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/영도희여울길3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/영도희여울길4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/오륙도 전경.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/요트경기장.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/요트경기장2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/요트경기장3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/요트경기장4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/요트경기장5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/요트경기장6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/용소웰빙공원.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/우암동도시숲1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/우암동도시숲10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/우암동도시숲11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/우암동도시숲12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/우암동도시숲13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/우암동도시숲14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/우암동도시숲15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/우암동도시숲16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/우암동도시숲17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/우암동도시숲18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/우암동도시숲19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/우암동도시숲2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/우암동도시숲3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/우암동도시숲4.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/우암동도시숲5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/우암동도시숲6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/우암동도시숲7).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/우암동도시숲8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/우암동도시숲9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/을숙도.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/을숙도2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/이기대.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/자갈치시장.avif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/자갈치시장.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/자갈치시장2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/자갈치시장3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/자갈치시장4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/자살바위(촛대바위).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/철새도래지(을숙도).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/청사포.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/초량이바구길.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/초량이바구길2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/충열사 주변전경.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/충열사.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/충열사2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/충열사3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/충혼탑.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/콘테이너 부두.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/태종대 등대.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/태종대 등대I-입선.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/태종대 바위.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/태종대등대2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/태종대절경.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/피아크.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/피아크2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/해녀촌_영도_동삼동.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/해동용궁사.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images_min/busan/해동용궁사.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/해동용궁사2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/해동용궁사3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/해동용궁사4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/해동용궁사5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/해동용궁사6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/해운대 전경.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/해운대 전경2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/해운대 항공촬영.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/해운대.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/해운대2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/해운대3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/해운대바닷가.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/해운대블루라인파크.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/해운대블루라인파크2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/해운대블루라인파크3.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/해운대블루라인파크4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/해운대블루라인파크5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/해운대해수욕장 전경.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/해운대해수욕장2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/해운대해수욕장3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/햇살받은 영도대교-은상.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/황령산봉수대1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/황령산봉수대2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/흰여울문화마을.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/흰여울문화마을2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/흰여울문화마을3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/흰여울문화마을4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/흰여울문화마을5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/흰여울문화마을6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/busan/흰여울문화마을7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/daegu/경상감영공원.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images_min/daegu/경상감영공원.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/daegu/네이처파크.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/daegu/대구미술관.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/daegu/도동서원.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/daegu/비슬산.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/daegu/수성못.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/daegu/스파벨리.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/daegu/옥연지송해공원.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/daegu/이월드.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/daegu/이월드10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/daegu/이월드11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images_min/daegu/이월드11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/daegu/이월드12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/daegu/이월드2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/daegu/이월드3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/daegu/이월드4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/daegu/이월드5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/daegu/이월드6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/daegu/이월드7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/daegu/이월드8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/daegu/이월드9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/daegu/칠성시장.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images_min/daegu/칠성시장.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/daegu/침산공원.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/daegu/하목정.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images_min/daegu/하목정.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/gyeongnam/가천다랭이마을.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/gyeongnam/경남진해 강화역 여좌천.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/gyeongnam/경남진해 강화역 여좌천2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/gyeongnam/경남진해 강화역 여좌천3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/gyeongnam/경남진해 강화역 여좌천4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/gyeongnam/경남진해 강화역 여좌천5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/gyeongnam/경남진해 강화역 여좌천6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/gyeongnam/경남진해 강화역 여좌천7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images_min/gyeongnam/경남진해 강화역 여좌천7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/gyeongnam/경남진해 강화역 여좌천8.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/gyeongnam/경남진해 강화역 여좌천9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/gyeongnam/근포동굴 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/gyeongnam/근포동굴 (2).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images_min/gyeongnam/근포동굴 (2).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/gyeongnam/삼성궁.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/gyeongnam/삼성궁2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images_min/gyeongnam/삼성궁2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/gyeongnam/양산오봉산.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/gyeongnam/우포늪.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/gyeongnam/최참판댁.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/gyeongnam/합천영상테마파크.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/gyeongnam/합천영상테마파크10.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/gyeongnam/합천영상테마파크11.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/gyeongnam/합천영상테마파크2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/gyeongnam/합천영상테마파크3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/gyeongnam/합천영상테마파크4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/gyeongnam/합천영상테마파크5.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/gyeongnam/합천영상테마파크6.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images_min/gyeongnam/합천영상테마파크6.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/gyeongnam/합천영상테마파크7.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/gyeongnam/합천영상테마파크8.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/gyeongnam/합천영상테마파크9.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/icon/hearts.png" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images_min/z.icon/hearts.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/icon/hearts1.png" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images_min/z.icon/hearts1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/icon/map.png" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images_min/z.icon/map.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/kyongbuk/경북삼선암 (1).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images_min/kyongbuk/경북삼선암 (1).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/kyongbuk/경북월정교.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images_min/kyongbuk/경북월정교.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/kyongbuk/고모산성.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/kyongbuk/공륜산활공장.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/kyongbuk/공륜산활공장2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/kyongbuk/공륜산활공장3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/kyongbuk/공륜산활공장4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/kyongbuk/공륜산활공장5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/kyongbuk/김천 사명대사공원.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images_min/kyongbuk/김천 사명대사공원.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/kyongbuk/김천 사명대사공원2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/kyongbuk/김천 사명대사공원3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/kyongbuk/만휴정.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/kyongbuk/만휴정2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/kyongbuk/문경새재 도립공원.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/kyongbuk/문경새재 도립공원2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/kyongbuk/문경새재 도립공원3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/kyongbuk/문경오미자테마터널.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/kyongbuk/문경오미자테마터널2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/kyongbuk/문경진남교반.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/kyongbuk/양양반딧불이 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/kyongbuk/양양반딧불이 (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/kyongbuk/양양반딧불이 (3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/kyongbuk/영양 반딧불이.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/kyongbuk/영양-반딧불이날리기 행사 (6).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/kyongbuk/영양군반딧불이생태공원.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/kyongbuk/울릉도 독도2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/kyongbuk/울릉도 독도3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/kyongbuk/울릉도 독도4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/kyongbuk/울릉도독도.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images_min/kyongbuk/울릉도독도.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/minhtmlbo/detail_busan_recommend.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/minhtmlbo/detail_busan_recommend2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/minhtmlbo/detail_부산.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/minhtmlbo/detail_부산2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/minhtmlbo/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/minhtmlbo/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/minhtmlbo/kangminstyle2(연습).css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/minhtmlbo/min1style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/minhtmlbo/min2style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/minhtmlbo/min3style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/minhtmlbo/minstyle(복사본).css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/minhtmlbo/minstyle(복사본)2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/minhtmlbo/minstyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/minhtmlbo/minstyle4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/minhtmlbo/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/ulsan/간월제.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images_min/ulsan/간월제.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/ulsan/대왕암2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/ulsan/선바위.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images_min/ulsan/선바위.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/ulsan/신화마을.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/ulsan/자수정 동굴나라.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/ulsan/자수정 동굴나라2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/ulsan/장생포고래문화마을.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/ulsan/장생포고래문화마을10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/ulsan/장생포고래문화마을11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/ulsan/장생포고래문화마을12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/ulsan/장생포고래문화마을2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/ulsan/장생포고래문화마을3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/ulsan/장생포고래문화마을4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/ulsan/장생포고래문화마을5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/ulsan/장생포고래문화마을6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/ulsan/장생포고래문화마을7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/ulsan/장생포고래문화마을8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/ulsan/장생포고래문화마을9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/ulsan/전광사.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images_min/ulsan/전광사.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/ulsan/태화강 십리대숲.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/ulsan/태화강 십리대숲2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/ulsan/태화강 십리대숲3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/ulsan/태화강 십리대숲4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/ulsan/태화강 십리대숲5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/ulsan/태화강 십리대숲6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images_min/ulsan/태화강 십리대숲6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/ulsan/태화강 십리대숲7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/z.footer_img/facebook.png" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images_min/z.footer_img/facebook.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/z.footer_img/instagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images_min/z.footer_img/instagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/z.footer_img/kakao.png" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images_min/z.footer_img/kakao.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/z.footer_img/magnifier.png" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images_min/z.footer_img/magnifier.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/z.footer_img/youtube.png" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images_min/z.footer_img/youtube.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/z.vanner/chat.png" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images_min/z.vanner/chat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/z.vanner/down.png" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images_min/z.vanner/down.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/min_images/z.vanner/up.png" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/images_min/z.vanner/up.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/.idea/kang_project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/css/gjstyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/detail_강원_제주권.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/detail_경상권.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/detail_수도권.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/detail_충청_전라권.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/greentour_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/travel준완성/travel민정/greentour_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/images/campfire.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/images/gangneung1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/images/gangneung2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/images/gangneung3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/images/greenboat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/images/korea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/images/sokcho1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/images/sokcho2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/images/sokcho3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/images/강원1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/images/설악산.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/images/제주1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/images/한라산.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/images2/강원1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/images2/강원2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/images2/강원3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/images2/강원강릉1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/images2/강원강릉2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/images2/강원강릉3(대체이미지).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/images2/강원강릉3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/images2/강원강릉4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/images2/강원속초1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/images2/강원속초2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/images2/강원속초3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/images2/강원속초4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/images2/강원속초5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/images2/강원속초6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/images2/강원춘천1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/images2/강원춘천2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/images2/강원춘천3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/images2/강원춘천4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/images2/서귀포시1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/images2/서귀포시2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/images2/서귀포시3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/images2/서귀포시4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/images2/제주시1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/images2/제주시2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/images2/제주시3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/images2/제주시4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/js/main_js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/여행리스트/강원도ㅊㅊ.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/travel/kang_project/여행리스트/제주도ㅊㅊ.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/여행리스트/강원도ㅊㅊ.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/travel/min_project/여행리스트/제주도ㅊㅊ.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,13 +714,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/green_project/project_team1/travel/min_project/css"
+    "last_opened_file_path": "C:/project4"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\project4\travel\travel민정\js" />
       <recent name="C:\green_project\project_team1\travel\min_project\css" />
       <recent name="C:\green_project\project_team1\travel\min_project" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\project4\travel\travel민정\css" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
