@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <!-- 왼쪽 그린 로고 -->
+        <a class="navbar-brand" href="#">그린투어</a>
+        <!-- 버튼 -->
+        <button class="navbar-toggler" type="button" data-bs-tolle="collapse">
+            <span class="navbar-toggler-toggler-icon"></span>
+        </button>
+        <!-- 로그인 메뉴 -->
+        <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    {% if user.is_authenticated %}  <!--로그인(인증) 되었다면 -->
+                    <a class="nav-link" href="{% url 'common2:logout' %}">
+                        {{ user.username }}(로그아웃)
+                    </a>
+                    {% else %}
+                    <a class="nav-link" href="{% url 'common2:signin' %}">회원가입</a>
+                    {% endif %}
+                </li>
+                <!--<li class="nav-item">
+                    <a class="nav-link" href="">ocr</a>
+                </li>-->
+            </ul>
+        </div>
+    </div>
+</nav>

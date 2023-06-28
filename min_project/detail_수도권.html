@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>서울,인천,경기 여행</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/gjstyle.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
+        <script src="./js/main_js.js"></script>
+    </head>
+<body>
+    <div id="container">
+        <header>
+            <div class="smallhead">
+                <ul>
+                    <li><a href="#">로그인</a></li>
+                    <li><a href="#">회원가입</a></li>
+                    <li><a href="./side/detail_아코디언.html" onclick="window.open(this.href, '_blank', 'width=400, height=530')
+                           return false;">고객센터</a></li>
+                    <li>[ <span id="demo"></span> ]</li>
+                </ul>
+            </div>
+            <div class="mainhead">
+                <div class="logo">
+                    <a href="greentour_index.html"><img src="./images/greenboat.png" alt="메인로고사진" id="logo_pic">
+                        <h1>
+                            그린<span style="color: #444;">투어</span>
+                        </h1>
+                    </a>
+                </div>
+                <div class="menu">
+                    <nav>
+                        <ul>
+                            <li><a href="detail_수도권.html">수도권</a></li>
+                            <li><a href="detail_충청_전라권.html">충청/전라권</a></li>
+                            <li><a href="detail_경상권.html">경상권</a></li>
+                            <li><a href="detail_강원_제주권.html">강원/제주권</a></li>
+                            <li><a href="">여행후기</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+
+        <section id="gangwon_wrap">
+            <!----------------- [ section1 부산 Top ]----------------->
+            <div id="gj_top">
+                <img src="images3/서울/seoul.png"
+                      alt="seoul" class="i1">
+                <img src="images3/서울/seoul2.jpg"
+                      alt="seoul" class="i2">
+                <div id="gj_topInfo">
+                    <div class="gj_topInfo1">
+                        <p><span class="region2">I.SEOUL.U</span></p>
+                        <p><span>" <span class="region2">동행_매력_서울특별시</span> "</span></p>
+                    </div>
+                    <div class="gj_topInfo2">
+                        <p>서울은 대한민국의 수도이자 인구 1000만의 중심지다.
+                         현재는 세계적으로 통하는 도시까지 성장했으며 대한민국에 없어서는 안될
+                         심장과 같은 도시로 여겨지고 있다.</p>
+                    </div>
+                </div>
+            </div>
+            <!----------------- [ 대구 Top ]----------------->
+            <div id="gj_top">
+                <img src="images3/인천/incheon.png"
+                      alt="incheon" class="i1">
+                <img src="images3/인천/incheon2.png"
+                      alt="incheon" class="i2">
+                <div id="gj_topInfo">
+                    <div class="gj_topInfo1">
+                        <p><span class="region2">Fly Incheon</span></p>
+                        <p><span>" <span class="region2">동북아 허브도시 인천</span> "</span></p>
+                    </div>
+                    <div class="gj_topInfo2">
+                        <p>대한민국 제 2의 항구 도시이자 영종도에 세계 다섯 손가락에 꼽히는
+                             규모인 인천 국제 공항을 보유하여 세계적인 관문으로 불리고 있다.
+                             그리고 해수욕과 바다 쪽 산업도 상당히 발달해 도심지와 관광지의
+                             역할을 모두 해낼 수 있는 매력적인 도시이다.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!----------------- [ 울산 Top ]----------------->
+            <div id="gj_top">
+                <img src="images3/경기/gyeonggi.png"
+                      alt="gyeonggi" class="i1">
+                <img src="images3/경기/gyeonggi2.png"
+                      alt="gyeonggi" class="i2">
+                <div id="gj_topInfo">
+                    <div class="gj_topInfo1">
+                        <p><span class="region2">GO GREAT GYEONGGI</span></p>
+                        <p><span>" <span class="region2">세계 속의 경기도</span> "</span></p>
+                    </div>
+                    <div class="gj_topInfo2">
+                        <p> 대한민국에서 가장 인구가 많은 도이자 광역자치단체이다.
+                         지리적으로 서울특별시와 인천광역시와 접하고 있으며 해당 두 개 특별, 광역시와 함께
+                         대한민국의 수도권을 이루고 있다. 대한민국 전체에서 가장 인구가 많고, '유일하게 인구가
+                         1,000만 명을 넘는 광역자치단체'이다.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ 서울 소개 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ -->
+
+            <div class="miniImg_wrap1">
+                <!----------------- [ 부산 ]----------------->
+                <div class="miniImg">
+                    <div class="miniFont1">
+                        <h1><strong>서울</strong></h1>
+                    </div>
+                    <div class="min_content">
+                        <div class="scale">
+                            <a href="" class="banner_img"><img src="images3/서울/N서울타워/서울타워 배경.jpg" alt="N서울타워">
+                                <p class="hover_text">서울에 오면 무조건 들려야하는 제1관광명소 남산서울타워는
+                                    최근 각종예능, 드라마의 촬영지로 이름 높아지면서 관광객이 더욱 늘어나는 추세다.
+                                </p>
+                            </a>
+                        </div>
+                        <div class="mini_info">
+                            <p class="tag">  <!--샵태그-->
+                                <a href="" class="tag1">#서울타워</a>
+                                <a href="" class="tag2">#썸타는 사람과</a>
+                                <a href="" class="tag3">#사랑이 이루어지는 곳</a>
+                            </p>
+                            <p class="lol">서울타워</p> <!--지역명-->
+                            <p class="detail"> <!--지역설명-->
+                                국내외 관광객들이 년 1,200만 명 방문하는 서울 제1의 관광명소인 남산서울타워는
+                                서울에 오면 꼭 들려야하는 제1의 관광명소이다.
+                                최근 한류 바람을 몰고 각종 예능, 드라마의 촬영지로
+                                이름이 높아지면서 관광객 방문이 더욱 늘어나는 추세다.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="min_content">
+                        <div class="scale">
+                            <a href="" class="banner_img"><img src="images3/서울/경복궁/경복궁 배경.png" alt="경복궁">
+                                <p class="hover_text">서울 특별시 종로구에있는 조선전기에 창건되어 정궁으로 이용된 궁궐
+                                </p>
+                            </a>
+                        </div>
+                        <div class="mini_info">
+                            <p class="tag">  <!--샵태그-->
+                                <a href="" class="tag1">#경복궁</a>
+                                <a href="" class="tag2">#역사</a>
+                                <a href="" class="tag3">#종로구</a>
+                            </p>
+                            <p class="lol">경복궁</p> <!--지역명-->
+                            <p class="detail"> <!--지역설명-->
+                                1963년 사적으로 지정되었다. 도성의 북쪽에 있다고 하여 북궐이라고도 불리었다.
+                                조선왕조의 건립에 따라 창건되어 초기에 정궁으로 사용되었으나 임진왜란 때
+                                전소된 후 오랫동안 폐허로 남아 있다가 조선 말기 고종 때 중건되어 잠시 궁궐로 이용되었다.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="min_content">
+                        <div class="scale">
+                            <a href="" class="banner_img"><img src="images3/서울/낙산공원/낙산공원 배경.png" alt="낙산공원">
+                                <p class="hover_text">
+                                    수도 서울을 구성하는 내사산의 하나다. 역사적 문화환경을 복원하여
+                                    쾌적한 공원경관을 제공한다.
+                                </p>
+                            </a>
+                        </div>
+                        <div class="mini_info">
+                            <p class="tag">  <!--샵태그-->
+                                <a href="" class="tag1">#낙산공원</a>
+                                <a href="" class="tag2">#대학로</a>
+                                <a href="" class="tag3">#맛집</a>
+                            </p>
+                            <p class="lol">낙산공원</p> <!--지역명-->
+                            <p class="detail"> <!--지역설명-->
+                                수도 서울을 구성하는 내사산의 하나이자 주산인 북악산의 좌청룡에 해당하는
+                                낙산의 자연환경과 역사적 문화환경을 복원함으로써 서울시민들에게 쾌적한 공원
+                                경관을 제공하고, 자연 탐방을 통해 역사와 문화 교육의 장을
+                                제공할 목적으로 조성되었다.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="min_content">
+                        <div class="scale">
+                           <a href="" class="banner_img"><img src="images_min/busan/부산불꽃축제 (1).jpg" alt="부산불꽃축제">
+                                <p class="hover_text">
+                                    롯데월드는 대규모 실내공원으로 모험과 신비를 주제로 한 여러 시설로 구성되어 있다.
+                                </p>
+                            </a>
+                        </div>
+                        <div class="mini_info">
+                            <p class="tag">  <!--샵태그-->
+                                <a href="" class="tag1">#롯데월드</a>
+                                <a href="" class="tag2">#놀이기구</a>
+                                <a href="" class="tag3">#자이로드롭</a>
+                            </p>
+                            <p class="lol">롯데월드</p> <!--지역명-->
+                            <p class="detail"> <!--지역설명-->
+                                롯데월드 어드벤처는 대규모의 실내공원으로, ‘모험과 신비’를 주제로 한
+                                탑승시설·관람시설·공연 프로그램·세계의 거리로 구성되어 있으며,
+                                미국·일본이 만든 디즈니랜드, 캐나다의 에드먼튼, 미국의 킹아일랜드 등과 비등한 규모이다.
+
+                            </p>
+                        </div>
+                    </div><div class="min_content">
+                        <div class="scale">
+                           <a href="" class="banner_img"><img src="images3/서울/롯데월드타워/롯데월드타워1.jpg" alt="롯데월드타워">
+                                <p class="hover_text">
+                                    세계에서 5번째로 높은 건물, 본 건물은 롯데그룹의 한국 본사로서 사용되는 중이다.
+                                </p>
+                            </a>
+                        </div>
+                        <div class="mini_info">
+                            <p class="tag">  <!--샵태그-->
+                                <a href="" class="tag1">#롯데월드</a>
+                                <a href="" class="tag2">#놀이기구</a>
+                                <a href="" class="tag3">#자이로드롭</a>
+                            </p>
+                            <p class="lol">롯데월드타워</p> <!--지역명-->
+                            <p class="detail"> <!--지역설명-->
+                                지상 123층, 높이 554m로 2023년 기준으로 대한민국 최고층 건물,
+                                세계에서 5번째로 높은 건물, OECD 중에서 가장 높은 건물 등의 기록을 보유하고 있다.
+                                시그니엘 서울 호텔, 시그니엘 레지던스로도 유명하고 타워 부속 건물로
+                                대형 쇼핑몰인 롯데월드몰이 있다.
+                            </p>
+                        </div>
+                    </div><div class="min_content">
+                        <div class="scale">
+                           <a href="" class="banner_img"><img src="images3/서울/서울숲/서울숲 배경.jpg" alt="서울숲">
+                                <p class="hover_text">
+                                    기존의 뚝섬체육공원 일대를 대규모 도시 숲으로 만들었다.
+                                    도심 속에서 자연을 느낄 수 있다.
+                                </p>
+                            </a>
+                        </div>
+                        <div class="mini_info">
+                            <p class="tag">  <!--샵태그-->
+                                <a href="" class="tag1">#자연경관</a>
+                                <a href="" class="tag2">#힐링</a>
+                                <a href="" class="tag3">#포토존</a>
+                            </p>
+                            <p class="lol">서울숲</p> <!--지역명-->
+                            <p class="detail"> <!--지역설명-->
+                                서울특별시가 '뚝섬 숲 조성 기본계획'에 따라 기존의 뚝섬체육공원 일대를
+                                대규모 도시 숲으로 만들었다.
+                                다른 지역에 비해 공원이 부족한 서울 동북부 지역의 시민들에게
+                                도심 속에서 자연을 느낄 수 있는 휴식 공간을 제공하는 데 목적이 있다.
+
+                            </p>
+                        </div>
+                    </div><div class="min_content">
+                        <div class="scale">
+                           <a href="" class="banner_img"><img src="images3/서울/여의도한강공원/한강공원 배경.png" alt="여의도한강공원">
+                                <p class="hover_text">
+                                   여의도 한강공원은 각종 공연 및 행사가 이어지는 볼거리와 즐길거리가 풍부한 휴식공간이다.
+                                </p>
+                            </a>
+                        </div>
+                        <div class="mini_info">
+                            <p class="tag">  <!--샵태그-->
+                                <a href="" class="tag1">#여의도</a>
+                                <a href="" class="tag2">#한강</a>
+                                <a href="" class="tag3">#나들이</a>
+                            </p>
+                            <p class="lol">여의도 한강공원</p> <!--지역명-->
+                            <p class="detail"> <!--지역설명-->
+                                여의도 한강공원은 여의도에 자리하고
+                                지하철, 버스 등 대중교통으로 접근성이 좋아 직장인과 일반시민들이 즐겨찾는 명소이자
+                                봄꽃축제, 세계불꽃축제, 각종 공연 및 마라톤행사 등 다양한 행사가 이어져
+                                볼거리와 즐길거리가 풍부한 휴식공간이다.
+
+                            </p>
+                        </div>
+                    </div><div class="min_content">
+                        <div class="scale">
+                           <a href="" class="banner_img"><img src="images3/서울/청계천/청계천 배경.png" alt="청계천">
+                                <p class="hover_text">
+                                    청계천은 서울의 도시개발 역사를 상징하는 하천으로도 유명하다.
+                                </p>
+                            </a>
+                        </div>
+                        <div class="mini_info">
+                            <p class="tag">  <!--샵태그-->
+                                <a href="" class="tag1">#산책</a>
+                                <a href="" class="tag2">#물놀이</a>
+                                <a href="" class="tag3">#종로구</a>
+                            </p>
+                            <p class="lol">청계천</p> <!--지역명-->
+                            <p class="detail"> <!--지역설명-->
+                                지금으로부터 약 1천 년 전인 1096년 고려시대에는 지금의 서울 땅으로
+                                수도를 이전하려는 남경천도가 있었다. 당시 서울은 북악산, 인왕산, 남산으로 둘러싸이고 남쪽으로는
+                                한강이 흐르는 분지였다. 수도 서울의 가운데를 지나는 물길이 바로 청계천이다.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ 인천 소개 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ -->
+            <div class="miniImg_wrap2">
+                <div class="miniImg">
+                    <div class="miniFont1">
+                        <h1><strong>인천</strong></h1>
+                    </div>
+                    <div class="min_content">
+                        <div class="scale">
+                            <a href="" class="banner_img"><img src="images3/인천/송도/송도 배경.png" alt="송도">
+                                <p class="hover_text">
+                                    인천시 남구의 송도는 경제자유구역이며 세계 최대 규모의 민간 도시 개발 사업이다.
+                                </p>
+                            </a>
+                        </div>
+                        <div class="mini_info">
+                            <p class="tag">  <!--샵태그-->
+                                <a href="" class="tag1">#국제도시</a>
+                                <a href="" class="tag2">#경제자유구역</a>
+                                <a href="" class="tag3">#신도시</a>
+                            </p>
+                            <p class="lol">송도</p> <!--지역명-->
+                            <p class="detail"> <!--지역설명-->
+                                인천시 남구의 옥련동에 송도가 있다.
+                                본래 바다로 둘러싸인 섬이지만 간척지 조성 과정에서 육지로 변한 곳이다.
+                                송도와 청량산 사이에는 안으로 휘어진 만입부가 1936년에 유원지로 개발되면서,
+                                월미도와 함께 인천의 대표적 해수욕장이 들어서게 되었다.
+
+
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="min_content">
+                        <div class="scale">
+                            <a href="" class="banner_img"><img src="images3/인천/월미도/월미도1.png" alt="월미도">
+                                <p class="hover_text">
+                                    월미도는 문화예술 공연과 월미축제, 월미테마파크 등 각종 행사와
+                                    놀이기구가 있다.
+                                </p>
+                            </a>
+                        </div>
+                        <div class="mini_info">
+                            <p class="tag">  <!--샵태그-->
+                                <a href="" class="tag1">#월미도테마파크</a>
+                                <a href="" class="tag2">#디스코 팡팡</a>
+                                <a href="" class="tag3">#바다</a>
+                            </p>
+                            <p class="lol">월미도</p> <!--지역명-->
+                            <p class="detail"> <!--지역설명-->
+                                지명은 섬의 생김새가 반달의 꼬리처럼 휘어져 있는 데에서 유래되었다.
+                                재 해안도로에는 놀이시설과 유흥시설이 늘어서 있으며,
+                                1987년 7월 '월미도 문화의 거리'가 조성된 이래 문화예술 공연과 월미축제 등
+                                각종 행사가 다채롭게 펼쳐지고 있다.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="min_content">
+                        <div class="scale">
+                            <a href="" class="banner_img"><img src="images3/인천/을왕리/을왕리 배경.png" alt="을왕리">
+                                <p class="hover_text">
+                                    인천 중구 영동조의 서쪽 해안에 자리한 접근성이 좋은 해수욕장이다.
+                                </p>
+                            </a>
+                        </div>
+                        <div class="mini_info">
+                            <p class="tag">  <!--샵태그-->
+                                <a href="" class="tag1">#을왕리해수욕장</a>
+                                <a href="" class="tag2">#캠핑장</a>
+                                <a href="" class="tag3">#펜션</a>
+                            </p>
+                            <p class="lol">을왕리 해수욕장</p> <!--지역명-->
+                            <p class="detail"> <!--지역설명-->
+                                인천광역시 중구 영종도의 서쪽 해안에 자리한 해수욕장. 수도권에서 접근성이 좋다.
+                                해수욕장 이름은 해수욕장이 속한 지명이
+                                과거 경기도 부천군 용유면 을왕리였던 것에서 유래되었다.
+                                이 당시의 영향으로 해수욕장 이름은 계속 을왕리로 불러지고 있다.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="min_content">
+                        <div class="scale">
+                            <a href="" class="banner_img"><img src="images3/인천/인천대교/인천대교 배경.png" alt="인천대교">
+                                <p class="hover_text">  인천국제공항이 있는 영종도와 송도국제도시를 연결하는 총연장 18.38km의 다리로 우리나라에서 가장 크고 길다.
+                                </p>
+                            </a>
+                        </div>
+                        <div class="mini_info">
+                            <p class="tag">  <!--샵태그-->
+                                <a href="" class="tag1">#대교</a>
+                                <a href="" class="tag2">#야경</a>
+                                <a href="" class="tag3">#인천공항</a>
+                            </p>
+                            <p class="lol">인천대교</p> <!--지역명-->
+                            <p class="detail"> <!--지역설명-->
+                                인천대교 건설사업은 인천국제공항이 있는 영종도와
+                                송도국제도시를 잇는 총길이 21.38 km의 고속도로를 건설하는 사업이다.
+                                이중 서해를 횡단하며 연속적으로 이어지는 교량 구간이 인천대교이며,
+                                그 길이는 18.38 km로 우리나라에서 가장 크고 긴 다리이다.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ 경기도 소개 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ -->
+
+            <div class="miniImg_wrap3">
+                <div class="miniImg">
+                    <div class="miniFont1">
+                        <h1><strong>경기도</strong></h1>
+                    </div>
+
+                    <div class="min_content">
+                        <div class="scale">
+                            <a href="" class="banner_img"><img src="images3/경기/가평 자라섬/자라섬 배경.png" alt="자라섬">
+                                <p class="hover_text">
+                                    자라섬은 경기도 가평군 가평읍 달전리 1-1번지 일원에 있는 섬이다.
+                                    4개의 섬으로 이뤄져있다.
+                                </p>
+                            </a>
+                        </div>
+                        <div class="mini_info">
+                            <p class="tag">  <!--샵태그-->
+                                <a href="" class="tag1">#자라섬</a>
+                                <a href="" class="tag2">#빠지</a>
+                                <a href="" class="tag3">#꽃축제</a>
+                            </p>
+                            <p class="lol">자라섬</p> <!--지역명-->
+                            <p class="detail"> <!--지역설명-->
+                                자라섬은 경기도 가평군 가평읍 달전리 1-1번지 일원에 있는 섬이다.
+                                1943년 청평댐이 건설되면서 북한강에 생긴 자라섬은 남이섬과
+                                직선거리로 800m정도에 위치해 있다. ‘자라처럼 생긴 언덕’이 바라보고 있는 섬이라 하여
+                                ‘자라섬’이라는 이름을 얻었다.
+                                동도, 서도, 중도, 남도 등 4개 섬으로 이뤄진 자라섬에는
+                                레저 및 생태공원 시설도 들어서고 있다.
+
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="min_content">
+                        <div class="scale">
+                            <a href="" class="banner_img"><img src="images3/경기/광명 동굴/광명1.png" alt="광명 동굴">
+                                <p class="hover_text">
+                                </p>
+                            </a>
+                        </div>
+                        <div class="mini_info">
+                            <p class="tag">  <!--샵태그-->
+                                <a href="" class="tag1">#동굴</a>
+                                <a href="" class="tag2">#10대관광지</a>
+                                <a href="" class="tag3">#황금광산</a>
+                            </p>
+                            <p class="lol">광명동굴</p> <!--지역명-->
+                            <p class="detail"> <!--지역설명-->
+                                1912년 일제가 자원수탈을 목적으로 개발을 시작한 광명동굴은
+                                일제강점기 징용과 수탈의 현장이자 해방 후 근대화ㆍ산업화의 흔적을
+                                간직한 산업유산이다.
+                                2011년 광명시가 매입하여 역사ㆍ문화 관광명소로 탈바꿈시켰다.
+                                광명동굴은 산업유산으로서의 가치와 문화적 가치가 결합된 대한민국
+                                최고의 동굴테마파크라는 평가를 받고 있다.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="min_content">
+                        <div class="scale">
+                            <a href="" class="banner_img"><img src="images3/경기/수원 화성/화성 배경.jpg" alt="수원 화성">
+                                <p class="hover_text">
+                                     수원화성은 조선왕조 제22대 정조대왕이 아버지 사도세자를 위해 축성되었다.
+                                </p>
+                            </a>
+                        </div>
+                        <div class="mini_info">
+                            <p class="tag">  <!--샵태그-->
+                                <a href="" class="tag1">#수원화성</a>
+                                <a href="" class="tag2">#세계유산</a>
+                                <a href="" class="tag3">#랜드마크</a>
+                            </p>
+                            <p class="lol">화성</p> <!--지역명-->
+                            <p class="detail"> <!--지역설명-->
+                                수원화성은 조선왕조 제22대 정조대왕이 사도세자의 능침을 양주 배봉산에서 조선 최대의 명당인 수원 화산으로 천봉하고
+                                화산 부근에 있던 읍치를 수원 팔달산 아래 지금의 위치로 옮기면서 축성되었다.
+                                수원화성은 규장각 문신 정약용이 동서양의 기술서를 참고하여 만든 성화주략을 지침서로 하여
+                                1794년 1월에 착공에 들어가 1796년 9월에 완공하였다.
+
+
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="min_content">
+                        <div class="scale">
+                            <a href="" class="banner_img"><img src="images_min/ulsan/태화강 십리대숲6.jpg" alt="십리대숲">
+                                <p class="hover_text">강변을 따라 십리나 펼쳐지는 대숲은 울산의 허파 같은 곳이다.
+                                70만 그루의 울창한 대숲 안으로 들어서면 온통 초록 세상이다.
+                                </p>
+                            </a>
+                        </div>
+                        <div class="mini_info">
+                            <p class="tag">  <!--샵태그-->
+                                <a href="" class="tag1">#대나무</a>
+                                <a href="" class="tag2">#십리대숲</a>
+                                <a href="" class="tag3">#70만그루</a>
+                            </p>
+                            <p class="lol">서해랑 제부도해상케이블카</p> <!--지역명-->
+                            <p class="detail"> <!--지역설명-->
+                                서해안의 수려한 자연 경관과 어울릴 수 있는 전곡항, 제부도 바다 위 2.12km
+                                국내 최장 해상 케이블카 위치를 선정, 자연과 사람이 어우러진 새로운 랜드마크다..
+                                제부도 지역 고유의 특징과 아름다움을 담은 현대적 이미지로의
+                                해석과 기능을 얹은 입면 계획과 기존 타 지역 케이블카 업장과 전혀 다른 복합 레져 상업시설이다.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <footer>
+            <div>
+                <ul id="bottom-menu">
+                    <li><a href="#" target="_blank">사이트소개</a></li>
+                    <li><a href="#" target="_blank">임원소개</a></li>
+                    <li><a href="https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000218300" target="_blank"><b>개인정보 처리방침</b></a></li>
+                    <li><a href="https://support.google.com/legal/answer/3463239?hl=ko" target="_blank">이용약관</a></li>
+                    <li><a href="https://gangnam.greenart.co.kr/?cam_idx=1" target="_blank">본사홈페이지</a></li>
+                </ul>
+            </div>
+            <div class="about_us">
+                문의) 그린투어 운영팀: help@greentour.com
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>

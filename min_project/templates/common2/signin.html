@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="" method="post">
+  {% csrf_token %}
+  <!-- 에러 메시지 -->
+  {% if error %}
+    <div class="alert alert-danger">
+      {{ eorror }}
+    </div>
+  {% endif %}
+  <!-- 사용자ID -->
+  <div class="form-group">
+    <label for="username">사용자ID</label>
+    <input type="text" id="username" name="username" class="form-control"
+           value="{{ form.username.value|default_if_none;''}}">
+  </div>
+  <!-- 비밀번호 -->
+  <div class="form-group">
+    <label for="password">비밀번호</label>
+    <input type="password" id="password" name="password" class="form-control"
+           value="{{ form.password.value|default_if_none:''}}">
+  </div>
+</form>
+</body>
+</html>
