@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>질문 등록</title>
+</head>
+<body>
+  <h5 class="my-3 border-bottom pb-2">질문 등록</h5>
+  <form action="" method="post" class="post-form my-3">
+    {% csrf_token %}
+    <!-- 유효성 검사 - 오류 처리 시작-->
+      {% include 'form_errors.html' %}
+    <!-- 오류 처리 끝-->
+    <div class="form-group">
+      <label for="subject">제목</label>
+      <input type="text" class="form-control" id="subject" name="subject"
+             value="{{ form.subject.value|default_if_none:''}}">
+              <!-- value - 오루 발생시 입력값이 없는 경우 none을 공백으로 표시하고
+                  입력값이 있는 경우 기존값을 유지한다는 의미임 -->
+    </div>
+    <div class="form-group">
+      <label for="content">내용</label>
+      <textarea class="form-control" id="content" name="content"
+                rows="10">{{ form.content.value|default_if_none:'' }}</textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">저장하기</button>
+  </form>
+</body>
+</html>

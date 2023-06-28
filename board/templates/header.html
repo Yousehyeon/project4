@@ -1,0 +1,45 @@
+{% load static %}
+
+<div id="container">
+    <header>
+        <div class="logo">
+            <a href="">
+                <img src="{% static 'board/images/greenboat.png' %}" alt="메인" id="logo_pic">
+                <h1>
+                    그린<span style="color: #444;">투어</span>
+                </h1>
+            </a>
+        </div>
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar">Menu</label>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">수도권</a></li>
+                <li><a href="#">경상권</a></li>
+                <li><a href="#">충청, 전라권</a></li>
+                <li><a href="#">강원, 제주권</a></li>
+                <li><a href="#">여행 후기</a></li>
+
+            </ul>
+        </nav>
+        <div class="smallhead">
+            <ul>
+                <li>
+                    {% if user.is_authenticated %}  <!-- 로그인이 되었다면 -->
+                    <a href="{% url 'common2:logout' %}">
+                        ( {{ user.username }} )로그아웃
+                    </a>
+                    {% else %}
+                    <a href="{% url 'common2:login' %}">
+                        {{ user.username }}로그인
+                    </a>
+                    {% endif %}
+                </li>
+                <li><a href="{% url 'common2:signup' %}">회원가입</a></li>
+                <li><a href="#">도움말</a></li>
+                <li>[ <span id="demo"></span> ]</li>
+            </ul>
+        </div>
+    </header>
+</div>

@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container">
+    <h1>게시판</h1>
+    <section id="board_main">
+        <table class="board_main_table">
+            <!-- thead -->
+            <thead>
+                <tr>
+                    <th>번호</th>
+                    <th>제목</th>
+                    <th>글쓴이</th>
+                    <th>작성일시</th>
+                </tr>
+            </thead>
+            <!-- tbody -->
+            <tbody>
+            {% if question_list %}
+                {% for question in question_list %}
+                <tr>
+                    <td>{{ forloop.counter }}</td>
+                    <!-- 제목 -->
+                    <td>
+                        <a href="{% url 'board:detail' question.id %}">
+                            {{ question.subject }}
+                        </a>
+                    </td>
+                    <!-- 글쓴이 -->
+                    <td>{{ question.author }}</td>
+                    <!-- 작성 일시 -->
+                    <td>{{ question.create_date }}</td>
+                </tr>
+                {% endfor %}
+            {% else %}
+                <p>질문이 없습니다.</p>
+            {% endif %}
+            </tbody>
+        </table>
+        <a href="{% url 'board:question_create' %}"
+           class="board_main_q_btn">질문 등록</a>
+    </section>
+</div>
+{% endblock %}

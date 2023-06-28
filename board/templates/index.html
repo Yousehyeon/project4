@@ -1,0 +1,33 @@
+
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+{% include 'header.html' %}
+
+<section>
+            <div class="main_pic">
+                    <img src="{% static 'board/images/sokcho1.jpg' %}" alt="속초사진" id="pic1">
+                    <img src="{% static 'board/images/korea.png' %}" alt="대한민국" id="pic2">
+            </div>
+            <div class="main_box1">
+                <h1>main_box1 섹션을 채워주세요</h1>
+            </div>
+        </section>
+
+        <footer>
+            <div>
+                <ul id="bottom-menu">
+                    <li><a href="#">사이트소개</a></li>
+                    <li><a href="#">임원소개</a></li>
+                    <li><a href="#"><b>개인정보 처리방침</b></a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="https://gangnam.greenart.co.kr/?cam_idx=1" target="_blank">본사홈페이지</a></li>
+
+                </ul>
+            </div>
+            <div class="about_us">
+                문의) 그린투어 운영팀: help@greentour.com
+            </div>
+        </footer>
+
+{% endblock %}
