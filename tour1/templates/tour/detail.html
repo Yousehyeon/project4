@@ -1,100 +1,125 @@
 {% extends 'base.html' %}
+{% load static %}
 
-{% block title %}
-    {{ question.subject }}
-{% endblock %}
 {% block script %}
 
 {% endblock %}
 {% block content %}
-<div class="container my-3">
-    <h2 class="border-bottom py-2">{{ question.subject }}</h2>
-    <!---->
-    <div class="card">
-        <div class="card-body">
-            <div class="card-text" style="white-space: pre-line;">  <!-- pre-line; 줄바꿈 표시-->
+{% include 'header.html' %}
+<link rel="stylesheet" href="{% static 'tour/css/boardDetail.css' %}">
+<!--=========== confirm or alert 구현 수정 필요 ===========-->
+<!--=========== 질문자 구간 ===========-->
+<div class="board_detail_container">
+    <!--=========== 질문자 제목 ===========-->
+    <h2 class="board_detail_subject">{{ question.subject }}</h2>
+
+    <div class="board_detail_part1">
+        <div class="board_detail_content_part1_all">
+            <!--=========== 질문자 내용 ===========-->
+            <div class="board_detail_content">
                 {{ question.content }}
             </div>
-            {% if question.photo %} <!-- 사진이 있다면 -->
-            <div class="card-photo">
+            <!-- 사진이 있다면 -->
+            {% if question.photo %}
+            <div class="photo">
                 <img src="{{ question.photo.url }}">
             </div>
             {% endif %}
-            <div class="d-flex justify-content-end">
+
+            <!--=========== 질문자 ID/수정일 text ===========-->
+            <div class="board_detail_author_date_all">
                 <!-- 5장 - 질문 수정일이 있으면 -->
                 {% if question.modify_date %}
-                <div class="badge bg-light text-dark p-2 mx-2">
-                    <div class="mb-2 text-start">수정된 날짜</div>
-                    <div>({{ question.modify_date }})</div>
+                <div class="board_detail_modify_date_all">
+                    <div class="board_detail_modify_date_text">수정일</div>
+                    <div class="board_detail_modify_date">{{ question.modify_date }}</div>
                 </div>
                 {% endif %}
-                <div class="badge bg-light text-dark p-2">
-                    <div class="mb-2 text-start">작성자 : {{ question.author }}</div>
-                    <div>{{ question.create_date|date:"Y.m.d H:i:s" }}</div>
+                <div class="board_detail_author_create_date">
+                    <div class="board_detail_author">{{ question.author }}</div>
+                    <div class="board_detail_create_date">{{ question.create_date }}</div>
                 </div>
             </div>
-            <!-- 5장 - 수정 버튼 추가 -->
-            {% if request.user == question.author %}
-            <div>
-                <a href="{% url 'tour:question_modify' question.id %}"
-                    class="btn btn-sm btn-outline-secondary">수정</a>
+            <!--=========== 질문자 수정/삭제 버튼 ===========-->
+            {% if question.author == request.user %}
+            <div class="board_detail_correction_delete_button1">
+                <div class="board_detail_correction_button1_box">
+                    <a href="{% url 'tour:question_modify' question.id %}"
+                        class="board_detail_correction_button1">수정</a>
+                </div>
                 <!-- data-uri는 제이쿼리와 연동하는 부분 -->
-                <a href=""
+                <div class="board_detail_delete_button1_box">
+                    <a href=""
                    data-uri="{% url 'tour:question_delete' question.id %}"
-                    class="delete btn btn-sm btn-outline-secondary">삭제</a>
+                        class="board_detail_delete_button1">삭제</a>
+                </div>
             </div>
             {% endif %}
         </div>
     </div>  <!-- 수정: </div> 추가 -->
-    <!---->
-    <h5 class="border-bottom my-3 py-2">
-        {{ question.answer_set.count }}개의 답변이 있습니다.
-    </h5>
-    <!---->
+
+    <!--<div class="board_detail_question_answer_box">
+        <h5 class="board_detail_question_answer">
+            {{ question.answer_set.count }}개의 답변이 있습니다.
+        </h5>
+    </div>-->
+
+    <!--=========== 답변자 구간 ===========-->
     {% for answer in question.answer_set.all %}
-    <div class="card my-3">
-        <div class="card-body">
-            <div class="card-text" style="white-space: pre-line;">
+    <div class="board_detail_answer_part2">
+        <div class="board_detail_content_answer_part2_all">
+            <!--=========== 답변자 댓글 ===========-->
+            <div class="board_detail_answer_content">
                 {{ answer.content }}
             </div>
-            <div class="d-flex justify-content-end my-2">
-                <!-- 5장 - 답변 수정일이 있으면 -->
+
+            <div class="board_detail_answer_author_date_all1">
+                <!--=========== 답변자 ID/수정일 text ===========-->
                 {% if answer.modify_date %}
-                <div class="badge bg-light text-dark p2 mx-2">
-                    <div class="mb-2 text-start">수정된 날짜</div>
-                    <div>({{ answer.modify_date|date:"Y.m.d H:i:s" }})</div>
+                <div class="board_detail_answer_modify_text_date">
+                    <div class="board_detail_answer_modify_date_text">수정일</div>
+                    <div class="board_detail_answer_modify_date">{{ answer.modify_date }}</div>
                 </div>
                 {% endif %}
-                <div class="badge badge-light p-2">
-                    <div class="mb-2 text-start">작성자 : {{ answer.author }}</div>
-                    <div>{{ answer.create_date|date:"Y.m.d H:i:s" }}</div>
+                <div class="board_detail_answer_author_create_date">
+                    <div class="board_detail_answer_author">{{ answer.author }}</div>
+                    <div class="board_detail_answer_create_date">{{ answer.create_date }}</div>
                 </div>
             </div>
-            <!-- 5장 - 수정 버튼 추가 -->
-            {% if request.user == answer.author %}
-            <div>
-                <a href="{% url 'tour:answer_modify' answer.id %}"
-                    class="btn btn-sm btn-outline-secondary">수정</a>
+            <!--=========== 답변자 수정/삭제 버튼 ===========-->
+            {% if answer.author == request.user %}
+            <div class="board_detail_correction_delete_button2">
+                <div class="board_detail_correction_button2_box">
+                    <a href="{% url 'tour:answer_modify' answer.id %}"
+                        class="board_detail_correction_button2">수정</a>
+                </div>
                 <!-- data-uri는 제이쿼리와 연동하는 부분 -->
-                <a href=""
+                <div class="board_detail_delete_button2_box">
+                    <a href=""
                    data-uri="{% url 'tour:answer_delete' answer.id %}"
-                    class="delete btn btn-sm btn-outline-secondary">삭제</a> <!-- 경로 수정해야하나 ? -->
+                        class="board_detail_delete_button2">삭제</a> <!-- 경로 수정해야하나 ? -->
+                </div>
             </div>
             {% endif %}
         </div>
     </div>  <!-- 수정: </div> 추가 -->
     {% endfor %}
-    <form action="{% url 'tour:answer_create' question.id %}" method="post" class="my-3">
+    <!--=========== 답변자 textarea / 등록 버튼 ===========-->
+    <form action="{% url 'tour:answer_create' question.id %}" method="post" class="board_detail_textarea_form">
         {% csrf_token %}
-        <!-- 유효성 검사 -->
         {% include 'form_errors.html' %}
-        <div class="form-group">
-            <textarea name="content" id="content" rows="10" cols="40" class="form-control" style="resize:none;"
+        <!--=========== 답변자 textarea ===========-->
+        <div class="board_detail_textarea_box">
+            <textarea name="content" id="content" rows="10" cols="40" class="board_detail_textarea"
                       {% if not user.is_authenticated %}disabled{% endif %}></textarea>
         </div>
-        <input type="submit" value="답변 등록" class="btn btn-primary">
+        <!--=========== 답변자 등록 버튼 ===========-->
+        <input type="submit" value="답변 등록" class="board_detail_input_button">
     </form>
+    <!--=========== 목록 버튼 ===========-->
+    <button type="button" class="board_detail_button" onclick="location.href='{% url 'tour:question_list' %}'">목록</button>
 </div>
+
 <script>
     $(document).ready(function(){
         $('.delete').click(function(){
@@ -104,4 +129,5 @@
         });
     });
 </script>
+<script src="{% static 'tour/js/main_js.js' %}"></script>
 {% endblock %}

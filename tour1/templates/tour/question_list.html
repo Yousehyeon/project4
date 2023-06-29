@@ -4,60 +4,46 @@
 {% block content %}
 {% include 'header.html' %}
 
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <div class="container">
+
+
     <h1>REVIEW</h1>
     <p>그린 투어와 함께한 후기를 남겨주세요</p>
     <section id="board_main">
         <table class="board_main_table">
             <!-- thead -->
             <thead class="board_table_thd">
-                <tr class="tr1">
-                    <th>NO</th>
+                <tr>
+                    <th>No</th>
                     <th>제목</th>
                     <th>글쓴이</th>
-                    <th>작성일</th>
+                    <th>작성일시</th>
                 </tr>
             </thead>
             <!-- tbody -->
             <tbody>
             {% if question_list %}
                 {% for question in question_list %}
-                <tr class="tr2">
-                    <!--<td>{{ forloop.counter }}</td>-->  <!-- 1번 부터 시작 -->
-                    <!-- 템플릿 태그 -->
-                    <!-- 1페이지 13~4, 2페이지 3~1 (최신글이 1페이지로)
-                        13 - 1(시작인덱스1, 11, 21) - (0~9:현재 인덱스) + 1 = 13 >> 공식
-                    -->
+                <tr>
+                    <td>{{ forloop.counter }}</td>
                     <!-- 제목 -->
-                    <td> {{ question_list.paginator.count|sub:question_list.start_index|sub:forloop.counter0|add:1 }} </td>
                     <td>
                         <a href="{% url 'tour:detail' question.id %}">
                             {{ question.subject }}
                         </a>
-                        <!-- 댓글이 있을때 제목 옆에 표시하는 기능 -->
-                        {% if question.answer_set.count > 0 %}
-                            <span class="text-danger">[{{ question.answer_set.count }}]</span>
-                        {% endif %}
                     </td>
                     <!-- 글쓴이 -->
                     <td>{{ question.author }}</td>
                     <!-- 작성 일시 -->
-                    <td>{{ question.create_date|date:"Y.m.d H:i:s" }}</td>
+                    <td>{{ question.create_date }}</td>
                 </tr>
                 {% endfor %}
             {% else %}
-                <p>
-                    <i class="fa-solid fa-down-long"></i>
-                    <i class="fa-solid fa-down-long"></i>
-                     리뷰가 없습니다! 당신만의 여행후기를 남겨주세요~
-                    <i class="fa-solid fa-down-long"></i>
-                    <i class="fa-solid fa-down-long"></i>
-                </p>
+                <p>질문이 없습니다.</p>
             {% endif %}
             </tbody>
         </table>
-
         <!-- 페이지 처리 영역 -->
         <ul class="pagination">
             <!-- 이전 페이지 -->

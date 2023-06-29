@@ -1,0 +1,81 @@
+/*============== 모바일 버전 ==============*/
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.question_form_container_box{
+    width: 90%;
+    margin: 100px auto 10px auto;
+    text-align: center;
+    }
+
+/*=========== 질문 등록 text ===========*/
+.question_form_main_correction_top{
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 25px;
+    }
+
+/*=========== 제목/내용 text ===========*/
+.question_form_subject,
+.question_form_content_text{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 10px 0;
+    }
+
+.question_form_subject{
+    }
+
+.question_form_content_text{
+    margin-bottom: 20px;
+    }
+
+/*=========== input ===========*/
+.question_form_input_box{
+    width: 90%;
+    margin: 10px 0 10px 0;
+    padding: 15px;
+    border-radius: 7px;
+    background: #fff;
+    border: none;
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.25)
+    }
+
+/*=========== textarea ===========*/
+.question_form_textarea_box{
+    width: 90%;
+    padding: 10px;
+    margin: 0 auto 7px auto;
+    border-radius: 7px;
+    border: 1px solid #EFEFEF;
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.25)
+    }
+
+/*=========== 저장 button ===========*/
+.question_form_save_box,
+.question_form_question_list_button{
+    width: 90%;
+    margin: 10px 0 10px 0;
+    padding: 15px;
+    border-radius: 7px;
+    background: #fff;
+    border: none;
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.25)
+    }
+
+/*=========== 저장 button:hover ===========*/
+.question_form_save_box:hover,
+.question_form_question_list_button:hover{
+    background: #EFEFEF;
+    cursor: pointer;
+    }
+
+/*============== 태블릿 버전 ==============*/
+@media screen and (min-width: 780px){
+
+}
+
+
+/*============== PC 버전 ==============*/
+@media screen and (min-width: 1100px){
+
+}

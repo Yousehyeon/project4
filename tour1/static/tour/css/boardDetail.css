@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Belanosima&family=Black+Han+Sans&family=Gasoek+One&family=Luckiest+Guy&family=Open+Sans&family=Rubik+Mono+One&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Bacasime+Antique&family=Belanosima&family=Black+Han+Sans&family=Gasoek+One&family=Luckiest+Guy&family=Open+Sans&family=Rubik+Mono+One&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Bacasime+Antique&family=Belanosima&family=Black+Han+Sans&family=Dongle:wght@300&family=Gasoek+One&family=Luckiest+Guy&family=Open+Sans&family=Rubik+Mono+One&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Bacasime+Antique&family=Belanosima&family=Black+Han+Sans&family=Do+Hyeon&family=Dongle:wght@300&family=Gasoek+One&family=Luckiest+Guy&family=Open+Sans&family=Rubik+Mono+One&family=Shrikhand&display=swap');
+/*
+font-family: 'Belanosima', sans-serif;
+font-family: 'Rubik Mono One', sans-serif; - 재밌는 폰트(굵음)
+
+font-family: 'Anton', sans-serif;
+
+font-family: 'Dongle', sans-serif;
+
+font-family: 'Do Hyeon', sans-serif;
+
+*/
+
+/*============== 모바일 버전 ==============*/
+*{margin: 0; padding: 0; box-sizing: border-box; /*font-family: 'Anton', sans-serif;*/ font-family: 'Belanosima', sans-serif;}
+.board_detail_container{
+    width: 90%;
+    margin: 50px auto;
+    text-align: center;
+    /*border: 1px solid #000;*/
+    }
+
+/*=========== 질문자 제목 ===========*/
+.board_detail_subject{
+    width: 90%;
+    margin: 10px auto 15px auto;
+    padding: 5px;
+    font-size: 25px;
+    border-radius: 7px;
+    border: 1px solid #EFEFEF;
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.25)
+    }
+
+/*=========== 질문자 내용 ===========*/
+.board_detail_content{
+    width: 90%;
+    margin: 0 auto 5px auto;
+    padding: 7px;
+    text-align: left;
+    border-radius: 8px;
+    border: 1px solid #EFEFEF;
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.25)
+    }
+
+/*=========== 질문자/답변자 = ID/수정일 box ===========*/
+.board_detail_author_date_all,
+.board_detail_answer_author_date_all1{
+    width: 90%;
+    margin: -10px auto 0 auto;
+    height: 7vh;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    /*display: flex;*/
+    /*justify-content: flex-end;*/
+    /*align-items: center;*/
+    /*border: 1px solid #f00; 빨강 */
+}
+
+
+
+/*=========== 질문자 ID/수정일 text/날짜 공통 ===========*/
+.board_detail_modify_date_all,
+.board_detail_author_create_date,
+.board_detail_answer_modify_text_date,
+.board_detail_answer_author_create_date{
+    width: 49%;
+    margin: 10px auto 0 auto;
+    padding: 5px;
+    text-align: right;
+    float: right;
+    border-radius: 7px;
+    border: 1px solid #EFEFEF;
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.25)
+}
+
+.board_detail_author_date_all{
+    justify-content: center;
+
+    }
+
+.board_detail_modify_date_all,
+.board_detail_answer_modify_text_date{
+    margin-left: 7px;
+    }
+
+/*=========== 질문자/답변자 = ID/수정일 (날짜) ===========*/
+.board_detail_modify_date,
+.board_detail_create_date,
+.board_detail_answer_modify_date,
+.board_detail_answer_create_date{
+    font-size: 13px;
+}
+
+/*=========== 질문자/답변자 = 수정/삭제 버튼 box ===========*/
+.board_detail_correction_delete_button1,
+.board_detail_correction_delete_button2{
+    width: 90%;
+    height: 5vh;
+    margin: 10px auto 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /*align-items: flex-start; 아래쪽으로 붙어버림 */
+    /*align-items: center; 중앙정렬 */
+    /*border: 1px solid orange; 오렌지 */
+    }
+
+/*=========== 질문자/답변자 = 수정/삭제 버튼 공통 ===========*/
+.board_detail_correction_button1_box,
+.board_detail_delete_button1_box,
+.board_detail_correction_button2_box,
+.board_detail_delete_button2_box{
+    margin: 10px 5px;
+    float: right;
+    }
+
+/*=========== 질문자/답변자 = 수정/삭제 버튼 [ a ] 태그 공통 ===========*/
+.board_detail_part1 a,
+.board_detail_answer_part2 a{
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    /*background: #6281FF;*/
+    background: #002E05;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.25)
+    }
+
+.board_detail_part1 a:hover,
+.board_detail_answer_part2 a:hover{
+    background: #005F0A;
+    }
+/*=========== 답변자 구간 ===========*/
+.board_detail_content_answer_part2_all{
+    margin: 20px auto;
+    }
+
+/*=========== 답변자 댓글 ===========*/
+.board_detail_answer_content{
+    width: 90%;
+    margin: 0 auto 5px auto;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 7px;
+    border: 1px solid #EFEFEF;
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.25)
+    }
+
+/*=========== 답변자 textarea box ===========*/
+.board_detail_textarea_box{
+    margin: 10px auto 10px auto;
+    text-align: center;
+    }
+
+/*=========== 답변자 = textarea / 답변 등록 (공통) ===========*/
+.board_detail_textarea,
+.board_detail_input_button,
+.board_detail_button{
+    width: 90%;
+    }
+
+/*=========== 답변자 textarea ===========*/
+.board_detail_textarea{
+    padding: 10px;
+    text-align: left;
+    border-radius: 7px;
+    border: 1px solid #EFEFEF;
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.25)
+    }
+
+/*=========== 답변자 등록 버튼 / 목록 버튼 ===========*/
+.board_detail_input_button,
+.board_detail_button{
+    padding: 10px 0;
+    margin: 0 0 10px 0;
+    border-radius: 7px;
+    background: #fff;
+    font-size: 20px;
+    border: none;
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.25)
+    }
+
+.board_detail_input_button:hover,
+.board_detail_button:hover{
+    background: #EFEFEF;
+    cursor: pointer;
+    }
+
+/*=======================↓↓↓↓↓↓========================*/
+/*==================== [ 태블릿 버전 ] ======================*/
+@media screen and (min-width: 780px){
+    .board_detail_modify_date_all,
+    .board_detail_author_create_date,
+    .board_detail_answer_modify_text_date,
+    .board_detail_answer_author_create_date{
+        width: 49%;
+        margin: 10px auto;
+        }
+
+    .board_detail_modify_date_all,
+    .board_detail_answer_modify_text_date{
+        margin-left: 7px;
+        }
+
+    .board_detail_author_date_all{
+        text-align: center;
+        margin-right: 8px;
+        }
+
+    .board_detail_answer_author_date_all1{
+        margin-right: 3px;
+        }
+
+    /*=========== 질문자 ID/수정일 text/날짜 공통 ===========*/
+    .board_detail_answer_author_create_date,
+    .board_detail_answer_modify_text_date{
+        width: 49.3%;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        }
+
+    /*=========== 답변자 등록 버튼 / 목록 버튼 ===========*/
+    .board_detail_input_button,
+    .board_detail_button{
+        padding: 15px 0;
+        }
+
+
+
+}
+
+/*=========================↓↓↓↓↓↓=========================*/
+/*======================== [ PC 버전 ] ========================*/
+@media screen and (min-width: 1100px){
+
+    /*=========== 질문자 ID/수정일 text/날짜 공통 ===========*/
+    .board_detail_answer_author_create_date,
+    .board_detail_answer_modify_text_date{
+        width: 49.5%;
+        }
+
+    /*=========== 질문자/답변자 = ID/수정일 box ===========*/
+    .board_detail_author_create_date,
+    .board_detail_modify_date_all{
+        width: 49.5%;
+        }
+
+}
