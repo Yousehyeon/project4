@@ -1,0 +1,66 @@
+/*============== 모바일 버전 ==============*/
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.board_detail_container{width: 90%; margin: 50px auto; text-align: center;}
+
+/*===== 게시판 디테일 [ 제목 ] 스타일 =====*/
+.board_detail_subject{margin: 0 auto 15px auto;}
+
+/*===== 게시판 디테일 [ 내용 ] 스타일 =====*/
+.board_detail_content{}
+
+/*===== 게시판 디테일 [ 수정, 삭제 (text / 버튼 ) ] 스타일 =====*/
+.board_detail_part1{width: 95%;}
+.board_detail_answer_author_date_all2{width: 95%;}
+
+
+/*===== 게시판 디테일 [ 수정, 삭제 (text) ] 스타일 =====*/
+.board_detail_modify_date_all, .board_detail_author_create_date,
+.board_detail_answer_modify_text_date, .board_detail_answer_author_create_date{
+    text-align: right;
+    float: right;
+}
+
+/*===== 게시판 디테일 [ 수정, 삭제 (버튼) ] 스타일 =====*/
+.board_detail_correction_button1_box, .board_detail_delete_button1_box,
+.board_detail_correction_button2_box, .board_detail_delete_button2_box{
+    width: 50px;
+    margin: 10px 0;
+    padding: 5px;
+    float: right;
+}
+
+/*===== 게시판 디테일 [ 댓글 전체 ] 스타일 =====*/
+.board_detail_content_answer_part2_all{margin: 50px 0 50px 0;}
+
+/*===== 게시판 디테일 [ 댓글 ] 스타일 =====*/
+.board_detail_answer_content{width: 90%; margin: 0 auto; padding: 10px 0; text-align: center; border: 1px solid #000;}
+
+
+
+/*===== 게시판 디테일 [ textarea div ] 스타일 =====*/
+.board_detail_textarea_box{margin: 70px auto 5px auto; text-align: center;}
+
+/*===== 게시판 디테일 [ textarea / 답변 등록 (공통) ] 스타일 =====*/
+.board_detail_textarea, .board_detail_input_button{width: 90%;}
+
+/*===== 게시판 디테일 [ textarea ] 스타일 =====*/
+.board_detail_textarea{padding: 10px;}
+
+/*===== 게시판 디테일 [ 답변 등록 ] 스타일 =====*/
+.board_detail_input_button{padding: 5px 0;}
+
+
+
+/*============== 태블릿 버전 ==============*/
+@media screen and (min-width: 780px){
+    .board_detail_answer_content {
+    }
+
+}
+
+/*============== PC 버전 ==============*/
+@media screen and (min-width: 1100px){
+    .board_detail_answer_content {
+    }
+
+}

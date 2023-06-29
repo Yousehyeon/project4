@@ -1,0 +1,167 @@
+/* 전체영역 마진패딩 제거 및 글꼴통합  ※ 검정#fff 하양 #333 글꼴 font-family: Arial, Helvetica, sans-serif; 통일  */
+/* #taget id지정해서 설정가능 .taget으로 클래스 설정가능 */
+*{
+    margin: 0; padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+
+/*
+box-shadow : 요소의 테두리를 감싼 그림자 정의가 가능합니다
+justify-content Item들을 보통 균듕하게 할때 쓰는데 첫째랑 마지막째로 나누려고 사용했습니다 -> end로 수정
+z-index 요소의 쌓임 순서를 정의할 수 있습니다 1000안넣고 1만넣어도 위로가져요 바디영역보다 위에 쌓아서 확인해보려했습니다
+*/
+header{
+    top: 0; left: 0; right: 0;
+    background: #ffffff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 0 7%;
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+
+/* 로고설정 */
+header .logo{
+    width:23%;
+    font-weight: bolder;
+    font-size: 34px;
+    color: #333;
+    color: rgb(50, 180, 0); font-family: 'Single Day', cursive;
+}
+/* navbar ul 스타일제거 */
+header .navbar ul{
+    width:95%;
+    list-style: none;
+}
+
+/* 포지션을바꾸고 정렬했습니다 float left */
+header .navbar ul li{
+    position:relative;
+    float: left;
+}
+
+/* 앵커요소 설정 글씨 설정 */
+header .navbar ul li a{
+    font-size: 20px;
+    padding: 20px;
+    color: #333;
+    display: block;
+}
+
+/* 앵커선택되었을때 */
+header .navbar ul li a:hover{
+    background: #333;
+    color: #fff;
+}
+
+/* position 간단한 설명
+(함축설명 : 부모엘리먼트에 속박되지 않아 브라우저상 어디든 위치할수있음 부모엘리먼트에도 겹칠수있음
+단,상위엘리먼트중 relative가 있으면 그중 가까운 엘리먼트 내부에서만 자유로운 배치가능)
+
+해더안에 클래스이름이 navbar 자손 ul li ul
+화면에 안사라지게하면 계속 남아있습니다*/
+header .navbar ul li ul{
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background: #fff;
+    display: none;
+}
+
+header .navbar ul li ul li{
+    width: 100%;
+    border-top: 1px solid rgba(0,0,0,.0.1);
+}
+
+/*오른쪽에나오는거 왼쪽으로이동*/
+header .navbar ul li ul li ul{
+    left: 200px;
+    top: 0;
+}
+
+/*focus 부모요소에 사용하면 내부 자식요소에 포커스된경우 스타일 지정 */
+header .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul {
+    display: initial;
+    /* 위에 position: absolute; 지정했기때문에
+    초기값으로 돌려 마우스가 올라가면 기존 li들 처럼 정렬되게함*/
+}
+
+/* #menu-bar 사라졌다가 모바일 화면에선 나오게설정  */
+#menu-bar{
+    display: none;
+}
+
+header label{
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+    display: none;
+}
+
+
+/*
+.top ul:focus{
+    display: initial;
+}
+*/
+
+/* 데스크탑우선으로 짜봤어요 최대~까지 적용 느낌이에요
+   데스크탑 디바이스 (가로해상도가 992px 보다 작은 화면에 적용)
+   모바일 320
+   태블릿 768 */
+@media(max-width:1100px){
+    header{
+        padding: 20px;
+    }
+
+    header label{
+        display: initial;
+        position:absolute;
+        right: 30px;
+
+    }
+
+    header .navbar{
+        position: absolute;
+        top: 100%; left: 0; right: 0;
+        background: #fff;
+        border-top: 1px solid rgba(0, 0, 0, 0.2);
+        display: none;
+    }
+
+    header .navbar ul li{
+        width: 100%;
+    }
+
+    header .navbar ul li ul{
+        position: relative;
+        width: 100%;
+    }
+
+    header .navbar ul li ul li{
+        background: aqua;
+    }
+
+    header .navbar ul li ul li ul{
+        width: 100%;
+        left: 0;
+    }
+    /* 형제선택자 ~ (뒤에있는거 다선택) */
+    #menu-bar:checked ~ .navbar{
+        display: initial;
+    }
+
+    #menu-bar .top ~ .a{
+        display: initial;
+    }
+
+    #top_banner1{
+        size: 100%;
+    }
+}

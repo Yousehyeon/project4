@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;500&family=Nanum+Pen+Script&family=Oswald:wght@700&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;500&family=Nanum+Pen+Script&family=Oswald:wght@700&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Gasoek+One&family=Luckiest+Guy&family=Rubik+Mono+One&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Black+Han+Sans&family=Gasoek+One&family=Luckiest+Guy&family=Rubik+Mono+One&family=Shrikhand&display=swap');
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+/*============== 모바일 버전 ==============*/
+/*===== 게시판 [ 배경 ] 스타일 =====*/
+.container .board_bg > video{
+    position: absolute;
+    z-index: -1;
+    height: 100vh;
+    /*width: 100%;*/
+    }
+
+/*===== 게시판 [ 전체 ] 스타일 =====*/
+.container{
+    width: 100%;
+    margin: 0 auto;
+    }
+
+#board_main{
+    margin: 0 auto;
+    }
+
+/*===== 게시판 [ 글자 ] 스타일 =====*/
+.container > h1{
+    color: rgba(50, 180, 0, 0.5);
+    width: 100%;
+    margin: 50px auto 10px auto;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Tilt Prism', cursive;
+    }
+
+.container > p{
+    width: 100%;
+    color: #444;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    }
+
+/*===== Table [ 전체 ] 스타일 =====*/
+.board_main_table{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 15px;
+    border-collapse: collapse;
+    border-radius: 15px;
+    background: rgba(240, 240, 240, 0.8);
+    /*background: rgba(73, 0, 122, 0.4); 보라색 */
+    box-shadow: 2px 8px 8px 2px rgba(0, 0, 0, 0.1);
+    }
+
+/*===== Table [ tr ] 스타일 =====*/
+.board_main_table tr{}
+
+.board_main_table tr:hover{
+    /*background: #49007A; 보라색 */
+    /*background: #FFFF99; 노란색 */
+    background: #FFFF99;
+    font-size: 20px;
+    }
+
+/*===== Table [ th, td ] 스타일 =====*/
+.board_main_table th, .board_main_table td{
+    padding: 5px;
+    color: #000;
+    /*color: #fff;*/
+    text-align: center;
+    /*border-top: 1px solid #49007A;*/
+    border-top: 1px solid #d2d2d2;
+    }
+
+/*===== Table [ th ] 스타일 =====*/
+.board_main_table th{
+    padding: 20px 0;
+    font-size: 17px;
+    /*background: rgba(73, 0, 122, 1); 보라색 */
+    background: rgba(50, 180, 0, 0.3); /* 연두색 */
+    /*background: #323232;*/
+    color: #fff;
+    /*color: #000;*/
+    border-top: 0;
+    }
+
+.board_main_table th:nth-child(1){border-radius: 15px 0 0 0;}
+.board_main_table th:nth-child(4){border-radius: 0 15px 0 0;}
+
+/*===== Table [ td ] 스타일 =====*/
+.board_main_table td{height: 40px;}
+
+.board_main_table td:nth-child(1){width: 10%; font-weight: bold;}
+.board_main_table td:nth-child(2){width: 40%; text-align: left;}
+.board_main_table td:nth-child(3){width: 20%;}
+.board_main_table td:nth-child(4){width: 35%;}
+
+/*===== Table th, td[ a ] 스타일 =====*/
+.board_main_table td a{
+    text-decoration: none;
+    color: #000;
+    /*color: #fff;*/
+    }
+
+.board_main_table td a:hover{font-weight: bold;}
+
+/*===== 질문 등록 [ a ] 스타일 =====*/
+.board_main_q_btn{
+    width: 68%;
+    margin: 15px 16% 50px 16%;
+    padding: 10px;
+    color: #fff;
+    /*color: #fff;*/
+    float: left;
+    background: rgba(0, 110, 7, 1);
+    /*background: rgba(73, 0, 122, 1);*/
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 2px 8px 8px 2px rgba(0, 0, 0, 0.1);
+    }
+
+.board_main_q_btn:hover{
+    /*background: #00AF0C;*/
+    background: #00AF0C;
+    /*background: #9A00FF;*/
+}
+
+
+
+/*============== 반응형 태블릿 ==============*/
+@media screen and (min-width: 780px){
+    /*===== 게시판 [ 배경 ] 스타일 =====*/
+    .board_bg{height: 100%;}
+
+    /*===== Table [ 전체 ] 스타일 =====*/
+    .board_main_table{
+        width: 90%;
+        }
+
+    /*===== 게시판 [ 글자 ] 스타일 =====*/
+    .container > h1{font-size: 50px;}
+
+    /*===== Table [ td ] 스타일 =====*/
+    .board_main_table td{padding: 25px 0;}
+
+}
+
+
+
+
+/*============== 반응형 PC ==============*/
+@media screen and (min-width: 1100px){
+    /*===== 게시판 [ 배경 ] 스타일 =====*/
+    .board_bg{
+        height: 100%;
+    }
+
+    /*===== 게시판 [ 글자 ] 스타일 =====*/
+    .container > h1{
+        margin: 70px auto 10px auto;
+        font-size: 60px;}
+
+    .container p{
+        margin: 10px auto 40px auto;
+        font-size: 20px;
+        text-align: center;
+        }
+
+    /*===== Table [ th ] 스타일 =====*/
+    .board_main_table th{border: 0;}
+
+    /*===== Table [ td ] 스타일 =====*/
+    .board_main_table td{padding: 20px 0;}
+
+    /*===== 질문 등록 [ a ] 스타일 =====*/
+    .board_main_q_btn{padding: 15px;}
+
+}
