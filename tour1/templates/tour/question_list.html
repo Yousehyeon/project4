@@ -37,7 +37,7 @@
                     <!-- 글쓴이 -->
                     <td>{{ question.author }}</td>
                     <!-- 작성 일시 -->
-                    <td>{{ question.create_date }}</td>
+                    <td>{{ question.create_date|date:"Y.m.d H:i:s" }}</td>
                 </tr>
                 {% endfor %}
             {% else %}

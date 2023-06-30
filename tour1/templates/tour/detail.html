@@ -28,12 +28,12 @@
                 {% if question.modify_date %}
                 <div class="board_detail_modify_date_all">
                     <div class="board_detail_modify_date_text">수정일</div>
-                    <div class="board_detail_modify_date">{{ question.modify_date }}</div>
+                    <div class="board_detail_modify_date">{{ question.modify_date|date:"Y.m.d H:i:s" }}</div>
                 </div>
                 {% endif %}
                 <div class="board_detail_author_create_date">
                     <div class="board_detail_author">{{ question.author }}</div>
-                    <div class="board_detail_create_date">{{ question.create_date }}</div>
+                    <div class="board_detail_create_date">{{ question.create_date|date:"Y.m.d H:i:s" }}</div>
                 </div>
             </div>
             <!--=========== 질문자 수정/삭제 버튼 ===========-->
@@ -75,12 +75,12 @@
                 {% if answer.modify_date %}
                 <div class="board_detail_answer_modify_text_date">
                     <div class="board_detail_answer_modify_date_text">수정일</div>
-                    <div class="board_detail_answer_modify_date">{{ answer.modify_date }}</div>
+                    <div class="board_detail_answer_modify_date">{{ answer.modify_date|date:"Y.m.d H:i:s" }}</div>
                 </div>
                 {% endif %}
                 <div class="board_detail_answer_author_create_date">
                     <div class="board_detail_answer_author">{{ answer.author }}</div>
-                    <div class="board_detail_answer_create_date">{{ answer.create_date }}</div>
+                    <div class="board_detail_answer_create_date">{{ answer.create_date|date:"Y.m.d H:i:s" }}</div>
                 </div>
             </div>
             <!--=========== 답변자 수정/삭제 버튼 ===========-->
