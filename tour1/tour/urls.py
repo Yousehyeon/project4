@@ -5,7 +5,7 @@ app_name = 'tour'  #  네임 스페이스(소속)
 
 urlpatterns = [
 
-    path('', views.question_list, name='question_list'), # http://127.0.0.1:8000/board/
+    # path('', views.question_list, name='question_list'), # http://127.0.0.1:8000/board/
     path('index', views.question_list, name='question_list'),
     path('detail/<int:question_id>/', views.detail, name='detail'),
     path('question/create/', views.question_create, name='question_create'),

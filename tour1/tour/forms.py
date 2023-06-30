@@ -17,5 +17,6 @@ class AnswerForm(forms.ModelForm):
         model = Answer
         fields = ['content']
         labels = {
+
             'content': '답변내용'
         }

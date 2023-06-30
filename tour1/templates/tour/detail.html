@@ -45,9 +45,10 @@
                 </div>
                 <!-- data-uri는 제이쿼리와 연동하는 부분 -->
                 <div class="board_detail_delete_button1_box">
-                    <a href=""
-                   data-uri="{% url 'tour:question_delete' question.id %}"
+                    <a href="{% url 'tour:question_delete' question.id %}"
+                   data-uri=""
                         class="delete board_detail_delete_button1">삭제</a>
+                    <!-- 글삭제에서 uri를 걸어버리면 question.id 를 지우긴하지만 찾아갈 넘버를 못찾음 -->
                 </div>
             </div>
             {% endif %}
