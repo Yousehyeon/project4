@@ -2,13 +2,14 @@ window.onload = function(){
 // alert("testing");
 
 // 디지털 시계
-setInterval(mywatch, 1000); //함수 호출
-
-function mywatch(){
-    const date = new Date();
-    let now = date.toLocaleTimeString();
-    document.getElementById("demo").innerHTML = now;
-}   // 시계 함수 끝
+//setInterval(mywatch, 1000); //함수 호출
+//
+//function mywatch(){
+//    const date = new Date();
+//    let now = date.toLocaleTimeString();
+//    document.getElementById("demo").innerHTML = now;
+//}
+// 시계 함수 끝
 
 
 

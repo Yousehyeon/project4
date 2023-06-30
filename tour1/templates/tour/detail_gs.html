@@ -6,10 +6,10 @@
         <section id="gangwon_wrap">
             <!----------------- [ section1 부산 Top ]----------------->
             <div id="gj_top">
-                <img src="images_min/busan/부산불꽃축제 (1).jpg"
-                            alt="부산불꽃축제" class="i1">
-                <img src= "images_min/busan/부산해녀촌3-5.jpg"
-                            alt="부산해녀촌3" class="i2">
+                <img src="{% static 'tour/images_min/busan/부산불꽃축제.jpg' %}"
+                      alt="부산불꽃축제" class="i1">
+                <img src="{% static 'tour/images_min/busan/부산해녀촌.jpg' %}"
+                      alt="부산해녀촌" class="i2">
                 <div id="gj_topInfo">
                     <div class="gj_topInfo1">
                         <p><span class="region2">B U S A N</span></p>
@@ -25,10 +25,10 @@
             </div>
             <!----------------- [ 대구 Top ]----------------->
             <div id="gj_top">
-                <img src="images_min/daegu/이월드11.jpg"
-                            alt="이월드" class="i1">
-                <img src="images_min/daegu/칠성시장.jpg"
-                            alt="칠성시장" class="i2">
+                <img src="{% static 'tour/images_min/daegu/이월드.jpg' %}"
+                      alt="이월드" class="i1">
+                <img src="{% static 'tour/images_min/daegu/칠성시장.jpg' %}"
+                      alt="칠성시장" class="i2">
                 <div id="gj_topInfo">
                     <div class="gj_topInfo1">
                         <p><span class="region2">D A E G U</span></p>
@@ -46,10 +46,10 @@
 
             <!----------------- [ 울산 Top ]----------------->
             <div id="gj_top">
-                <img src="images_min/ulsan/전광사.jpg"
-                            alt="전광사" class="i1">
-                <img src="images_min/ulsan/선바위.jpg"
-                            alt="선바위" class="i2">
+                <img src="{% static 'tour/images_min/ulsan/전광사.jpg' %}"
+                      alt="전광사" class="i1">
+                <img src="{% static 'tour/images_min/ulsan/선바위.jpg' %}"
+                      alt="선바위" class="i2">
                 <div id="gj_topInfo">
                     <div class="gj_topInfo1">
                         <p><span class="region2">U L S A N</span></p>
@@ -66,10 +66,10 @@
 
             <!----------------- [ 경남 Top ]----------------->
             <div id="gj_top">
-                <img src="images_min/gyeongnam/합천영상테마파크6.jpeg"
-                            alt="합천영상테마파크" class="i1">
-                <img src="images_min/gyeongnam/경남진해 강화역 여좌천7.jpg"
-                            alt="여좌천" class="i2">
+                <img src="{% static 'tour/images_min/gyeongnam/합천영상테마파크.jpeg' %}"
+                      alt="합천영상테마파크" class="i1">
+                <img src="{% static 'tour/images_min/gyeongnam/경남진해 강화역 여좌천.jpg' %}"
+                      alt="여좌천" class="i2">
                 <div id="gj_topInfo">
                     <div class="gj_topInfo1">
                         <p><span class="region2">G Y E O N G N A M</span></p>
@@ -87,14 +87,14 @@
 
             <!----------------- [ 경북 Top ]----------------->
             <div id="gj_top">
-                <img src="images_min/daegu/이월드11.jpg"
-                            alt="이월드" class="i1">
-                <img src="images_min/daegu/칠성시장.jpg"
-                            alt="칠성시장" class="i2">
+                <img src="{% static 'tour/images_min/kyongbuk/경북월정교.jpg' %}"
+                      alt="경북월정교" class="i1">
+                <img src="{% static 'tour/images_min/kyongbuk/울릉도독도.jpg' %}"
+                      alt="울릉도독도" class="i2">
                 <div id="gj_topInfo">
                     <div class="gj_topInfo1">
-                        <p><span class="region2">D A E G U</span></p>
-                        <p><span>" <span class="region2">자유와 활력이 넘치는 파워풀 대구</span> "</span></p>
+                        <p><span class="region2">G Y O N G B U K</span></p>
+                        <p><span>" <span class="region2">경북의 힘으로 새로운 대한민국</span> "</span></p>
                     </div>
                     <div class="gj_topInfo2">
                         <p>대한민국 남동부에 위치하며 10시 13군으로 행정구역이 나누어져있다.
@@ -104,9 +104,9 @@
                     </div>
                 </div>
             </div>
-            
-            <!-- ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ 강원도 속초 소개 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ -->
-            
+
+            <!-- ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ 부산 소개 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ -->
+
             <div class="miniImg_wrap1">
                 <!----------------- [ 부산 ]----------------->
                 <div class="miniImg">
@@ -115,7 +115,8 @@
                     </div>
                     <div class="min_content">
                         <div class="scale">
-                            <a href="" class="banner_img"><img src="images_min/busan/부산해녀촌3-5.jpg" alt="부산해녀촌">
+                            <a href="" class="banner_img">
+                                <img src="{% static 'tour/images_min/busan/부산해녀촌.jpg' %}" alt="부산해녀촌">
                                 <p class="hover_text">부산 영도에 위치한 '영도 해녀촌'은 시원한 바다를 바라보며
                                 신선한 해산물을 즐길 수 있는 곳이다.
                                 </p>
@@ -141,7 +142,8 @@
 
                     <div class="min_content">
                         <div class="scale">
-                            <a href="" class="banner_img"><img src="images_min/busan/해동용궁사.jpg" alt="해동용궁사">
+                            <a href="" class="banner_img">
+                                <img src="{% static 'tour/images_min/busan/해동용궁사.jpg' %}" alt="해동용궁사">
                                 <p class="hover_text">진심으로 기도를 하면 소원을 이루어 주는 곳이 있다. 바로 해동 용궁사이다.
                                 </p>
                             </a>
@@ -165,7 +167,8 @@
 
                     <div class="min_content">
                         <div class="scale">
-                            <a href="" class="banner_img"><img src="images_min/busan/남포동 (34).jpg" alt="남포동">
+                            <a href="" class="banner_img">
+                                <img src="{% static 'tour/images_min/busan/남포동.jpg' %}" alt="남포동">
                                 <p class="hover_text">자갈치시장은 해안통으로 도심과 접하고 있어
                                 시장기능과 위락기능을 겸하고 있고 부산지역의 성격을 가장 잘 보여준다.
                                 </p>
@@ -190,7 +193,7 @@
 
                     <div class="min_content">
                         <div class="scale">
-                           <a href="" class="banner_img"><img src="images_min/busan/부산불꽃축제 (1).jpg" alt="부산불꽃축제">
+                           <a href="" class="banner_img"><img src="{% static 'tour/images_min/busan/부산불꽃축제.jpg' %}" alt="부산불꽃축제">
                                 <p class="hover_text">APEC 정상 회담 경축 첨단 멀티미디어 해상 쇼가
                                     규모를 확대시키 부산의 대표 축제가 되었다.
                                 </p>
@@ -223,7 +226,8 @@
                     </div>
                     <div class="min_content">
                         <div class="scale">
-                            <a href="" class="banner_img"><img src="images_min/daegu/경상감영공원.jpg" alt="경상감영공원">
+                            <a href="" class="banner_img">
+                                <img src="{% static 'tour/images_min/daegu/경상감영공원.jpg' %}" alt="경상감영공원">
                                 <p class="hover_text">대구의 중심부에 위치한 도심 속의 정원으로 복잡한 도시생활 속에서
                                 쌓인 피로와 스트레스를 말끔히 해소할 수 있다.
                                 </p>
@@ -249,8 +253,9 @@
 
                     <div class="min_content">
                         <div class="scale">
-                            <a href="" class="banner_img"><img src="images_min/daegu/하목정.jpg" alt="하목정">
-                                <p class="hover_text">임진왜란 때 의병장이었던 낙포 이 종문(李宗文)현감이 조선 선조 37년(1604)에 세운 것이다.
+                            <a href="" class="banner_img">
+                                <img src="{% static 'tour/images_min/daegu/하목정.jpg' %}" alt="하목정">
+                                <p class="hover_text">임진왜란 때 의병장이었던 낙포 이 종문(李宗文)현감이 조선 선조 37년(1604)에 세운 것이다.
                                 </p>
                             </a>
                         </div>
@@ -262,9 +267,9 @@
                             </p>
                             <p class="lol">하목정</p> <!--지역명-->
                             <p class="detail"> <!--지역설명-->
-                                임진왜란 때 의병장이었던 낙포 이 종문(李宗文)현감이 조선 선조 37년(1604)에 세운 것이다.
+                                임진왜란 때 의병장이었던 낙포 이 종문(李宗文)현감이 조선 선조 37년(1604)에 세운 것이다.
                                 인조가 왕위에 오르기 전 이 곳에 머문 적이 있어
-                                그 후 이 종문의 장자인 이 지영(李之英)에게『하목정』이라는 정호(亭號)를 써 주었으며,
+                                그 후 이 종문의 장자인 이 지영(李之英)에게『하목정』이라는 정호(亭號)를 써 주었으며,
                                 또한 사가(私家)에서는 서까래 위에 부연을 달지 않은 것이 일반적이나 인조의 명으로 부연을 달았다고 한다.
                             </p>
                         </div>
@@ -272,7 +277,8 @@
 
                     <div class="min_content">
                         <div class="scale">
-                            <a href="" class="banner_img"><img src="images_min/daegu/칠성시장.jpg" alt="칠성시장">
+                            <a href="" class="banner_img">
+                                <img src="{% static 'tour/images_min/daegu/칠성시장.jpg' %}" alt="칠성시장">
                                 <p class="hover_text">칠성시장은 1950년대 부터 주변 농민들이 생산한 농산물을
                                 칠성동에 위치한 하천둔치 부분으로 가져와 판매 하기 시작했다.
                                 </p>
@@ -297,7 +303,8 @@
 
                     <div class="min_content">
                         <div class="scale">
-                            <a href="" class="banner_img"><img src="images_min/daegu/이월드11.jpg" alt="이월드">
+                            <a href="" class="banner_img">
+                                <img src="{% static 'tour/images_min/daegu/이월드.jpg' %}" alt="이월드">
                                 <p class="hover_text"> 1987년 타워건립 및 종합테마파크 조성공사 재 착공을 시작으로
                                     남녀노소 누구나 즐길 수 있는 놀이기구, 예술공간 등이 있다.
                                 </p>
@@ -332,7 +339,8 @@
 
                     <div class="min_content">
                         <div class="scale">
-                            <a href="" class="banner_img"><img src="images_min/ulsan/전광사.jpg" alt="정광사">
+                            <a href="" class="banner_img">
+                                <img src="{% static 'tour/images_min/ulsan/전광사.jpg' %}" alt="정광사">
                                 <p class="hover_text">대한불교천태종 정광사는 1972년 3월에 상월원각대조사가 터를 잡고,
                                 1974년에 법당 및 요사채 낙성식을 거행하였다.
                                 </p>
@@ -359,7 +367,8 @@
 
                     <div class="min_content">
                         <div class="scale">
-                            <a href="" class="banner_img"><img src="images_min/ulsan/선바위.jpg" alt="선바위">
+                            <a href="" class="banner_img">
+                                <img src="{% static 'tour/images_min/ulsan/선바위.jpg' %}" alt="선바위">
                                 <p class="hover_text">울주군 범서읍 입암리에 있는 선바위공원은 울산 12경 중 하나인 선바위를 가까이서 볼 수 있는 공원이다.
                                 </p>
                             </a>
@@ -384,7 +393,8 @@
 
                     <div class="min_content">
                         <div class="scale">
-                            <a href="" class="banner_img"><img src="images_min/ulsan/간월제.jpg" alt="간월제">
+                            <a href="" class="banner_img">
+                                <img src="{% static 'tour/images_min/ulsan/간월제.jpg' %}" alt="간월제">
                                 <p class="hover_text">영남 알프스는 경상북도와 경상남도 일대의 산지이다.
                                     해외 여행을 온듯한 착각을 불어일으킨다.
                                 </p>
@@ -412,7 +422,8 @@
 
                     <div class="min_content">
                         <div class="scale">
-                            <a href="" class="banner_img"><img src="images_min/ulsan/태화강 십리대숲6.jpg" alt="십리대숲">
+                            <a href="" class="banner_img">
+                                <img src="{% static 'tour/images_min/ulsan/태화강 십리대숲6.jpg' %}" alt="십리대숲">
                                 <p class="hover_text">강변을 따라 십리나 펼쳐지는 대숲은 울산의 허파 같은 곳이다.
                                 70만 그루의 울창한 대숲 안으로 들어서면 온통 초록 세상이다.
                                 </p>
@@ -447,7 +458,8 @@
                     </div>
                     <div class="min_content">
                         <div class="scale">
-                            <a href="" class="banner_img"><img src="images_min/gyeongnam/경남진해 강화역 여좌천7.jpg" alt="여좌천">
+                            <a href="" class="banner_img">
+                                <img src="{% static 'tour/images_min/gyeongnam/경남진해 강화역 여좌천.jpg' %}" alt="여좌천">
                                 <p class="hover_text"> 진해의 대표적인 벚꽃명소로 약 1.5km에 걸쳐 하천 일대에 눈부신 벚꽃터널이 형성되는 곳이다.
                                 </p>
                             </a>
@@ -471,7 +483,8 @@
 
                     <div class="min_content">
                         <div class="scale">
-                            <a href="" class="banner_img"><img src="images_min/gyeongnam/합천영상테마파크6.jpeg" alt="합천영상테마파크">
+                            <a href="" class="banner_img">
+                                <img src="{% static 'tour/images_min/gyeongnam/합천영상테마파크.jpeg' %}" alt="합천영상테마파크">
                                 <p class="hover_text"> 최근 영상테마파크 뒤편으로 150,000㎡ 규모의 전국 최고의 분재공원과 정원테마파크가 있다.
                                 </p>
                             </a>
@@ -494,7 +507,8 @@
 
                     <div class="min_content">
                         <div class="scale">
-                            <a href="" class="banner_img"><img src="images_min/gyeongnam/삼성궁2.jpg" alt="삼성궁">
+                            <a href="" class="banner_img">
+                                <img src="{% static 'tour/images_min/gyeongnam/삼성궁2.jpg' %}" alt="삼성궁">
                                 <p class="hover_text">환인, 환웅, 단군을 모시는 성전이며, 수도장이다.
                                 1,500여 개 돌탑이 주변의 숲과 어울려 이국적인 정취를 풍겨낸다.
                                 </p>
@@ -518,7 +532,8 @@
 
                     <div class="min_content">
                         <div class="scale">
-                            <a href="" class="banner_img"><img src="images_min/gyeongnam/근포동굴 (2).jpg" alt="근포동굴">
+                            <a href="" class="banner_img">
+                                <img src="{% static 'tour/images_min/gyeongnam/근포동굴.jpg' %}" alt="근포동굴">
                                 <p class="hover_text">사진 촬영 명소로 인기 있는 근포마을 땅굴은 근포 마을 뒤편 바닷가에 있는
                                 5개의 땅굴 중 일부이다.
                                 </p>
@@ -553,7 +568,8 @@
                     </div>
                     <div class="min_content">
                         <div class="scale">
-                            <a href="" class="banner_img"><img src="images_min/kyongbuk/경북삼선암 (1).jpg" alt="경북삼선암">
+                            <a href="" class="banner_img">
+                                <img src="{% static 'tour/images_min/kyongbuk/경북삼선암.jpg' %}" alt="경북삼선암">
                                 <p class="hover_text">삼선암은 울릉도의 아름다운 해양 절경을 자랑하는 곳으로
                                 일선암, 이선암, 삼선암으로 이루어져 있다.
                                 </p>
@@ -578,7 +594,8 @@
 
                     <div class="min_content">
                         <div class="scale">
-                            <a href="" class="banner_img"><img src="images_min/kyongbuk/경북월정교.jpg" alt="경북월정교">
+                            <a href="" class="banner_img">
+                                <img src="{% static 'tour/images_min/kyongbuk/경북월정교.jpg' %}" alt="경북월정교">
                                 <p class="hover_text">월정교란 이름은 삼국사기에 “궁궐 남쪽 문천에 월정교,
                                 춘양교 두 다리를 놓았다.”는 기록을 통해 알려졌다.
                                 </p>
@@ -603,7 +620,8 @@
 
                     <div class="min_content">
                         <div class="scale">
-                            <a href="" class="banner_img"><img src="images_min/kyongbuk/김천 사명대사공원.jpg" alt="사명대사공원">
+                            <a href="" class="banner_img">
+                                <img src="{% static 'tour/images_min/kyongbuk/김천 사명대사공원.jpg' %}" alt="사명대사공원">
                                 <p class="hover_text">사명대사공원은 승려의 신분으로 임진왜란이
                                 닥치자 의병을 일으켜 전공을 세운 사명대사를 기리기 위한 공원이다.
                                 </p>
@@ -628,7 +646,8 @@
 
                     <div class="min_content">
                         <div class="scale">
-                            <a href="" class="banner_img"><img src="images_min/kyongbuk/울릉도독도.jpg" alt="울릉도독도">
+                            <a href="" class="banner_img">
+                                <img src="{% static 'tour/images_min/kyongbuk/울릉도독도.jpg' %}" alt="울릉도독도">
                                 <p class="hover_text">독도는 대한민국 정부 소유의 국유지로서 1982년 천연기념물로 지정된 섬이다.
                                 동도와 서도 외에 89개의 부속도서로 구성되어 있다.
                                 </p>
