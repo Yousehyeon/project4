@@ -16,10 +16,10 @@
     <!-- 오류 처리 끝-->
     <div class="question_form_label_text">
       <!--=========== label 제목 text ===========-->
-      <label for="subject" class="question_form_subject">제목</label>
+      <!--<label for="subject" class="question_form_subject">제목</label>-->
       <!--=========== input 제목 box ===========-->
       <input type="text" class="question_form_input_box" id="subject" name="subject"
-             value="{{ form.subject.value|default_if_none:''}}">
+             value="{{ form.subject.value|default_if_none:''}}" placeholder="질문 제목">
               <!-- value - 오루 발생시 입력값이 없는 경우 none을 공백으로 표시하고
                   입력값이 있는 경우 기존값을 유지한다는 의미임 -->
     </div>
@@ -27,10 +27,10 @@
     <!--=========== ===========-->
     <div class="question_form_main_content_top">
       <!--=========== label 내용 text ===========-->
-      <label for="content" class="question_form_content_text">내용</label>
+      <!--<label for="content" class="question_form_content_text">내용</label>-->
       <!--=========== textarea 버튼 ===========-->
       <textarea class="question_form_textarea_box" id="content" name="content"
-                rows="10">{{ form.content.value|default_if_none:'' }}</textarea>
+                rows="10" placeholder="질문 내용">{{ form.content.value|default_if_none:'' }}</textarea>
     </div>
     <!-- 사진저장 -->
     <div class="question_form_content_photo">

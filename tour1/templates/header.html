@@ -31,7 +31,7 @@
                 <li>
                     {% if user.is_authenticated %}  <!-- 로그인이 되었다면 -->
                     <a href="{% url 'common2:logout' %}">
-                        ( {{ user.username }} )로그아웃
+                        <span style="font-size: 1.1em; letter-spacing: -1px;">( {{ user.username }} )</span> 로그아웃
                     </a>
                     {% else %}
                     <a href="{% url 'common2:login' %}">

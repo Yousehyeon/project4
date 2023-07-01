@@ -25,7 +25,7 @@
 
 /*===== 게시판 [ 글자 ] 스타일 =====*/
 .container > h1{
-    color: rgba(50, 180, 0, 0.5);
+    color: rgba(50, 180, 0, 0.6);
     width: 100%;
     margin: 50px auto 10px auto;
     text-align: center;
@@ -36,15 +36,17 @@
 .container > p{
     width: 100%;
     color: #444;
-    font-size: 16px;
+    font-size: 22px;
     text-align: center;
     margin-bottom: 20px;
     font-weight: bold;
+    font-family: 'Single Day', cursive;
+
     }
 
 /*===== Table [ 전체 ] 스타일 =====*/
 .board_main_table{
-    width: 70%;
+    width: 75%;
     margin: 0 auto;
     font-size: 15px;
     border-collapse: collapse;
@@ -79,7 +81,7 @@
     padding: 20px 0;
     font-size: 17px;
     /*background: rgba(73, 0, 122, 1); 보라색 */
-    background: rgba(50, 180, 0, 0.3); /* 연두색 */
+    background: rgba(50, 180, 0, 0.6); /* 연두색 */
     /*background: #323232;*/
     color: #fff;
     /*color: #000;*/
@@ -114,7 +116,7 @@
     color: #fff;
     /*color: #fff;*/
     float: left;
-    background: rgba(0, 110, 7, 1);
+    background: rgba(0, 110, 7, 0.8);
     /*background: rgba(73, 0, 122, 1);*/
     font-size: 20px;
     font-weight: bold;
@@ -139,14 +141,14 @@
 
     /*===== Table [ 전체 ] 스타일 =====*/
     .board_main_table{
-        width: 90%;
+        width: 80%;
         }
 
     /*===== 게시판 [ 글자 ] 스타일 =====*/
     .container > h1{font-size: 50px;}
 
     /*===== Table [ td ] 스타일 =====*/
-    .board_main_table td{padding: 25px 0;}
+    .board_main_table td{padding: 15px 0;}
 
 }
 
@@ -160,6 +162,10 @@
         height: 100%;
     }
 
+    .board_main_table{
+        width: 70%;
+        }
+
     /*===== 게시판 [ 글자 ] 스타일 =====*/
     .container > h1{
         margin: 70px auto 10px auto;
@@ -167,7 +173,7 @@
 
     .container p{
         margin: 10px auto 40px auto;
-        font-size: 20px;
+        font-size: 28px;
         text-align: center;
         }
 
@@ -175,7 +181,8 @@
     .board_main_table th{border: 0;}
 
     /*===== Table [ td ] 스타일 =====*/
-    .board_main_table td{padding: 20px 0;}
+    .board_main_table td{padding: 17px 0;}
+    .board_main_table td:nth-child(2){width: 40%; text-align: left; padding-left:60px;}
 
     /*===== 질문 등록 [ a ] 스타일 =====*/
     .board_main_q_btn{padding: 15px;}

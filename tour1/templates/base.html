@@ -11,8 +11,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
+    <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square-round.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/2d6623418a.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+
 </head>
 <body>
 <!--내용 start -->
@@ -23,6 +25,14 @@
 
 <!-- 제이쿼리 영역 -->
 {% block script %}
+<script>
+        $("#gotop").click(function () {
+          $("html").animate({ scrollTop: 0 }, 800);
+        });
+</script>
 {% endblock %}
+
+
+
 </body>
 </html>

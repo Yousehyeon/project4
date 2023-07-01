@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+    {{ question.subject }}
+{% endblock %}
+
+{% block content %}
+
+<!--질문등록 = board_question_form.css = -->
+<link rel="stylesheet" href="{% static 'tour/css/board_question_form.css' %}">
+<div class="question_form_container_box">
+  <!--=========== 질문 등록 text ===========-->
+  <h5 class="question_form_main_correction_top">질문 수정</h5>
+  <form action="" method="post" class="question_form_all" enctype="multipart/form-data">
+    {% csrf_token %}
+    <!-- 유효성 검사 - 오류 처리 시작-->
+      {% include 'form_errors.html' %}
+    <!-- 오류 처리 끝-->
+    <div class="question_form_label_text">
+      <!--=========== label 제목 text ===========-->
+<!--      <label for="subject" class="question_form_subject"></label>-->
+      <!--=========== input 제목 box ===========-->
+      <input type="text" class="question_form_input_box" id="subject" name="subject"
+             value="{{ form.subject.value|default_if_none:''}}" placeholder="제목">
+              <!-- value - 오루 발생시 입력값이 없는 경우 none을 공백으로 표시하고
+                  입력값이 있는 경우 기존값을 유지한다는 의미임 -->
+    </div>
+
+
+
+    <div class="question_form_main_content_top">
+      <!--=========== label 내용 text ===========-->
+<!--      <label for="content" class="question_form_content_text"></label>-->
+      <!--=========== textarea 버튼 ===========-->
+      <textarea class="question_form_textarea_box" id="content" name="content"
+                rows="10" placeholder="내용">{{ form.content.value|default_if_none:'' }}</textarea>
+    </div>
+    <!--=========== 사진 저장 -===========-->
+    <div class="question_form_content_photo">
+  <label for="photo">사진</label>
+  <input type="file" id="photo" name="photo" onchange="previewImage(event)">
+  <img id="preview" src="" alt="">
+</div>
+
+
+
+
+    <!--=========== 저장 버튼 ===========-->
+    <button type="submit" class="question_form_save_box">저장하기</button>
+    <!--=========== 목록 버튼 ===========-->
+    <button type="button" class="question_form_question_list_button" onclick="location.href='{% url 'tour:question_list' %}'">목록</button>
+  </form>
+</div>
+{% endblock %}

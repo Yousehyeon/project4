@@ -1,0 +1,133 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+{% include 'header.html' %}
+<link rel="stylesheet" href="{% static 'tour/css/boardDetail.css' %}">
+<!--=========== confirm or alert 구현 수정 필요 ===========-->
+<!--=========== 질문자 구간 ===========-->
+<div class="board_detail_container">
+    <!--=========== 질문자 제목 ===========-->
+    <h2 class="board_detail_subject">{{ question.subject }}</h2>
+
+    <div class="board_detail_part1">
+        <div class="board_detail_content_part1_all">
+            <!--=========== 질문자 내용 ===========-->
+            <div class="board_detail_content">
+                {{ question.content }}
+            </div>
+            <!-- 사진이 있다면 -->
+            {% if question.photo %}
+            <div class="photo">
+                <img src="{{ question.photo.url }}">
+            </div>
+            {% endif %}
+
+            <!--=========== 질문자 ID/수정일 text ===========-->
+            <div class="board_detail_author_date_all">
+                <!-- 5장 - 질문 수정일이 있으면 -->
+                {% if question.modify_date %}
+                <div class="board_detail_modify_date_all">
+                    <div class="board_detail_modify_date_text">수정일</div>
+                    <div class="board_detail_modify_date">{{ question.modify_date|date:"Y.m.d H:i:s" }}</div>
+                </div>
+                {% endif %}
+                <div class="board_detail_author_create_date">
+                    <div class="board_detail_author">{{ question.author }}</div>
+                    <div class="board_detail_create_date">{{ question.create_date|date:"Y.m.d H:i:s" }}</div>
+                </div>
+            </div>
+            <!--=========== 질문자 수정/삭제 버튼 ===========-->
+            {% if question.author == request.user %}
+            <div class="board_detail_correction_delete_button1">
+                <div class="board_detail_correction_button1_box">
+                    <a href="{% url 'tour:question_modify' question.id %}"
+                        class="board_detail_correction_button1">수정</a>
+                </div>
+                <!-- data-uri는 제이쿼리와 연동하는 부분 -->
+                <div class="board_detail_delete_button1_box">
+                    <a href="{% url 'tour:question_delete' question.id %}"
+                   data-uri=""
+                        class="delete board_detail_delete_button1">삭제</a>
+                    <!-- 글삭제에서 uri를 걸어버리면 question.id 를 지우긴하지만 찾아갈 넘버를 못찾음 -->
+                </div>
+            </div>
+            {% endif %}
+        </div>
+    </div>  <!-- 수정: </div> 추가 -->
+
+    <!--<div class="board_detail_question_answer_box">
+        <h5 class="board_detail_question_answer">
+            {{ question.answer_set.count }}개의 답변이 있습니다.
+        </h5>
+    </div>-->
+
+    <!--=========== 답변자 구간 ===========-->
+    {% for answer in question.answer_set.all %}
+    <div class="board_detail_answer_part2">
+        <div class="board_detail_content_answer_part2_all">
+            <!--=========== 답변자 댓글 ===========-->
+            <div class="board_detail_answer_content">
+                {{ answer.content }}
+            </div>
+
+            <div class="board_detail_answer_author_date_all1">
+                <!--=========== 답변자 ID/수정일 text ===========-->
+                {% if answer.modify_date %}
+                <div class="board_detail_answer_modify_text_date">
+                    <div class="board_detail_answer_modify_date_text">수정일</div>
+                    <div class="board_detail_answer_modify_date">{{ answer.modify_date|date:"Y.m.d H:i:s" }}</div>
+                </div>
+                {% endif %}
+                <div class="board_detail_answer_author_create_date">
+                    <div class="board_detail_answer_author">{{ answer.author }}</div>
+                    <div class="board_detail_answer_create_date">{{ answer.create_date|date:"Y.m.d H:i:s" }}</div>
+                </div>
+            </div>
+            <!--=========== 답변자 수정/삭제 버튼 ===========-->
+            {% if answer.author == request.user %}
+            <div class="board_detail_correction_delete_button2">
+                <div class="board_detail_correction_button2_box">
+                    <a href="{% url 'tour:answer_modify' answer.id %}"
+                        class="board_detail_correction_button2">수정</a>
+                </div>
+                <!-- data-uri는 제이쿼리와 연동하는 부분 -->
+                <div class="board_detail_delete_button2_box">
+                    <a href="#"
+                       data-uri="{% url 'tour:answer_delete' answer.id %}"
+                       class="delete board_detail_delete_button2">삭제</a> <!-- 경로 수정해야하나 ? -->
+                </div>
+            </div>
+            {% endif %}
+        </div>
+    </div>  <!-- 수정: </div> 추가 -->
+    {% endfor %}
+    <!--=========== 답변자 textarea / 등록 버튼 ===========-->
+    <form action="{% url 'tour:answer_create' question.id %}" method="post" class="board_detail_textarea_form">
+        {% csrf_token %}
+        {% include 'form_errors.html' %}
+        <!--=========== 답변자 textarea ===========-->
+        <div class="board_detail_textarea_box">
+            <textarea name="content" id="content" rows="10" cols="40" class="board_detail_textarea"
+                      {% if not user.is_authenticated %}disabled{% endif %}></textarea>
+        </div>
+        <!--=========== 답변자 등록 버튼 ===========-->
+        <input type="submit" value="답변 등록" class="board_detail_input_button">
+    </form>
+    <!--=========== 목록 버튼 ===========-->
+    <button type="button" class="board_detail_button" onclick="location.href='{% url 'tour:question_list' %}'">목록</button>
+</div>
+{% endblock %}
+
+{% block script %}
+<script>
+    $(document).ready(function(){
+        $('.delete').click(function(){
+            if(confirm('정말 삭제하시겠습니까?')){
+                location.href=$(this).data('uri');  //현재 대상 객체의 주소를 이동
+            }
+        });
+    });
+</script>
+{% endblock %}
+
+

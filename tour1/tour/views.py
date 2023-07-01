@@ -107,7 +107,7 @@ def question_modify(request, question_id):
     else:
         form = QuestionForm(instance=question)
     context = {'form': form}
-    return render(request, 'tour/question_form.html', context)
+    return render(request, 'tour/question_form2.html', context)
 
 
 # 답변 수정

@@ -22,7 +22,7 @@
 #gj_top{padding: 50px 0; box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2); width:100%;
 }
 
-#gj_top{box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2); width: 652.25px; display: inline-block;}
+#gj_top{box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2); width: 450px; display: inline-block;}
 #gj_top:nth-child(1){height: 600px;}
 #gj_top:nth-child(2){height: 630px;}
 #gj_top:nth-child(3){height: 630px;}
@@ -30,7 +30,7 @@
 #gj_top:nth-child(5){height: 635px;}
 
 #gj_top > img{overflow: hidden; margin-top:20px;}
-#gj_top img{width: 300px; height: 280px; border-radius: 30px; transition: all 0.2s linear; overflow: hidden; }
+#gj_top img{width: 180px; height: 180px; border-radius: 30px; transition: all 0.2s linear; overflow: hidden; }
 #gj_top img:hover{transform: scale(1.05); overflow: hidden;}
 #gj_top .i2{margin-left: -30px;}
 #gj_top #gj_topInfo{display: inline-block; margin-left: 0;}
@@ -38,7 +38,7 @@
 
 #gj_top .gj_topInfo1 p:nth-child(2){font-size: 0.9em;}
 #gj_top span{color: #000429; font-weight: bold; font-size: 1.5em;}
-#gj_top .gj_topInfo2 p{width: 450px;}
+#gj_top .gj_topInfo2 p{width: 310px; text-align: justify; margin-top: 10px; line-height: 1.7;}
 #gj_top span{color: #000429; font-weight: bold; font-size: 1.5em;}
 #gj_top .region2{color: rgb(50, 180, 0); font-family: 'Single Day', cursive;}
 
@@ -64,12 +64,12 @@
 .banner_img:after, .hover_text{display:none;}
 .banner_img:after{content:''; position:absolute;
 top:0; right:0; bottom:0; left:0; background: #000; opacity:0.4;}
-.banner_img{overflow:hidden; border-radius:15px;}
+.banner_img{overflow:hidden; border-radius:15px 15px 0 0;}
 .banner_img i2{height:265px;}
 .banner_img:hover img{
 transform:scale(1.2); transition:1s;}
-.hover_text{position:absolute; top:160px; left:10px; color: #fff; z-index:20;
-                font-weight:600; font-size:17px;}
+.hover_text{position:absolute; top:150px; left:10px; color: #fff; z-index:20;
+                font-weight:600; font-size:17px; line-height: 1.6;}
 
 /* ============도 소개 끝============ */
 
@@ -85,11 +85,11 @@ transform:scale(1.2); transition:1s;}
 
 /* ============ min_content 스타일 ============ */
 /* min_content img [전체] */
-.min_content{width: 500px; height: 400px; display: inline-block; text-align: center;
+.min_content{width: 500px; height: 310px; display: inline-block; text-align: center;
     margin: 20px 0; /*border: 1px solid #000;*/}
 
-.miniImg_wrap3 .min_content{height: 515px;}
-.miniImg_wrap4 .min_content{height: 450px;}
+/*.miniImg_wrap3 .min_content{height: 515px;}
+.miniImg_wrap4 .min_content{height: 450px;}*/
 .miniImg .miniFont1 strong{color: rgb(50, 180, 0); font-family: 'Single Day', cursive;}
 
 /* min_content img [태그] */
@@ -99,7 +99,10 @@ transform:scale(1.2); transition:1s;}
 
 /* ============ mini_info 스타일 ============ */
 /* mini_info p태그 */
-.min_content .mini_info p:nth-of-type(2){margin: 20px 0 10px 0;}
+.min_content .mini_info p:nth-of-type(2){margin: 25px 0 10px 0;}
+
+
+
 .min_content .mini_info .detail{font-size: 16px; }
 .miniImg_wrap3 mini_info{height: 100px;}
 
@@ -110,8 +113,8 @@ transform:scale(1.2); transition:1s;}
 .min_content .mini_info .tag2{padding: 0 15px;}
 
 /* mini_info p-A 태그 */
-.min_content .mini_info a{text-decoration: none; font-size: 0.9em;}
-.min_content .mini_info a:hover{font-weight: bold; color: blueviolet;}
+.min_content .mini_info a{text-decoration: none; font-size: 1em;}
+.min_content .mini_info a:hover{font-weight: bold; color: blueviolet; font-style:italic;}
 
 /* index 페이지 */
  .main_box1{width:100%; height:100%; margin:0 auto;}
@@ -278,10 +281,10 @@ transform:scale(1.2); transition:1s;}
 #gj_top .gj_topInfo{margin: 10px 0 0 20px; }
 #gj_top span{color: #000429; font-weight: bold; font-size: 1.5em;}
 #gj_top .region2{color: rgb(50, 180, 0); font-family: 'Single Day', cursive;}
-#gj_top #gj_topInfo{margin-left: 30px; height: 280px;}
+#gj_top #gj_topInfo{margin-left: 30px; height: 280px; padding-top: 30px;}
 #gj_top .gj_topInfo1, #gj_top .gj_topInfo2{margin: 10px 0 0 20px;}
-#gj_top .gj_topInfo1 p:nth-child(2){font-size: 0.9em;}
-#gj_top .gj_topInfo2 > p{width: 500px; margin-top: 10px; line-height: 1.7;}
+#gj_top .gj_topInfo1 p:nth-child(2){font-size: 0.9em; padding-bottom: 10px;}
+#gj_top .gj_topInfo2 > p{width: 500px; margin-top: 10px; line-height: 1.8;}
 
 /* ============도 소개 끝============ */
 
@@ -289,8 +292,9 @@ transform:scale(1.2); transition:1s;}
 
 /* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
 .miniImg_wrap{width: 100%; height: 550px; text-align: center; box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2);}
+.miniImg{box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.1);}
 .miniImg_wrap h1{margin: 20px 0; text-align: left; padding-left: 50px;}
-.min_content{width: 330px; height:450px; display: inline-block; text-align: center; margin: 10px 10px 0 0; }
+.min_content{width: 330px; height:460px; display: inline-block; text-align: center; margin: 10px 10px 0 0; }
 .banner_img:hover:after, .banner_img:hover > .hover_text{display:none;}
 .min_content .scale{overflow: hidden; width: 330px; height: 250px;}
 .min_content a:hover img{transform: scale(1.2); transition: all 1s; filter: brightness(70%);}
@@ -304,8 +308,8 @@ transform:scale(1.2); transition:1s;}
 .min_content .mini_info a{text-decoration: none; font-size: 0.9em;}
 .min_content .mini_info a:hover{font-weight: bold; color: blueviolet;}
 .min_content .mini_info p:nth-of-type(2){margin-bottom: 10px;}
-.min_content .mini_info .detail{height: 130px; font-size: 16px; text-align:center;
-                width:280px; margin:0 auto; line-height: 1.5;
+.min_content .mini_info .detail{height: 130px; font-size: 16px; text-align:justify;
+                width:280px; margin:0 auto; line-height: 1.5; letter-spacing: 1.1px;
                 }
 
 .min_content .mini_info{width:100%;}

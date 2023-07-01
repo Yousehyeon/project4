@@ -8,18 +8,18 @@
 <link rel="stylesheet" href="{% static 'tour/css/boardstyle.css' %}">
 <div class="container">
 
-
     <h1>REVIEW</h1>
     <p>그린 투어와 함께한 후기를 남겨주세요</p>
+
     <section id="board_main">
         <table class="board_main_table">
             <!-- thead -->
             <thead class="board_table_thd">
                 <tr>
                     <th>No</th>
-                    <th>제목</th>
-                    <th>글쓴이</th>
-                    <th>작성일시</th>
+                    <th>제 목</th>
+                    <th>글 쓴 이</th>
+                    <th>작 성 일</th>
                 </tr>
             </thead>
             <!-- tbody -->
@@ -46,6 +46,7 @@
             </tbody>
         </table>
         <!-- 페이지 처리 영역 -->
+
         <ul class="pagination">
             <!-- 이전 페이지 -->
             {% if question_list.has_previous %}
@@ -81,9 +82,42 @@
                     <a class="page-link" href="">&raquo;</a>
                 </li>
             {% endif %}
+
         </ul>
+        <div>
         <a href="{% url 'tour:question_create' %}"
-           class="board_main_q_btn">질문 등록</a>
+               class="board_main_q_btn">질문 등록</a>
+        </div>
     </section>
+    <div>
+        <div class="footer_container">
+            <div class="footer_part1">
+                <!-- 그린투어 로고 -->
+                <div class="footer_logo">
+                    <a href="" id="gotop"><img src="{% static 'tour/images/greenboat.png' %}" alt="그린투어로고"><p>㈜그린투어</p></a>
+                </div>
+            </div>
+
+            <div class="footer_part2">
+                <!-- 회사 정보 -->
+                <div class="footer_info">
+                    <p>그린투어 공동 대표 이사 : <span style="font-weight: bolder; color: #000;">강정현 김민정 성의석 유세현</span>│ 서울본사 :서울 강남구 테헤란로5길 24, 장연빌딩 3~7층<br>
+                        사업자 등록번호:000-81-0000│ 통신판매업신고번호 : 제2010 서울용산 00000호 │ 관광사업등록증번호 : 제0000-000000호 사업자 정보확인<br>
+                        상담문의:02-3481-1005 | 보증보험 : 2억6천5백만원 가입<br>
+                        부득이한 사정에 의해 여행일정이 변경되는 경우 여행자의 사전 동의를 받습니다.</p>
+                </div>
+                <!--SNS 이미지 링크 연결-->
+                <div class="footer_part2_sns">
+                    <a href="https://ko-kr.facebook.com/" target="_blank"><img src="{% static 'tour/images_min/footer_img/facebook.png' %}" alt="페이스북"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="{% static 'tour/images_min/footer_img/instagram.png' %}" alt="인스타"></a>
+                    <a href="https://www.kakaocorp.com/page/" target="_blank"><img src="{% static 'tour/images_min/footer_img/kakao.png' %}" alt="카카오"></a>
+                    <a href="https://www.youtube.com/" target="_blank"><img src="{% static 'tour/images_min/footer_img/youtube.png' %}" alt="유튜브"></a>
+                    <a href="https://www.blogger.com/about/?hl=ko" target="_blank"><img src="{% static 'tour/images_min/footer_img/blog.png' %}" alt="블로그"></a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+
+
 {% endblock %}

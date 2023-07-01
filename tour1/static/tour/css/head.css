@@ -2,8 +2,9 @@
 /* #taget id지정해서 설정가능 .taget으로 클래스 설정가능 */
 *{
     margin: 0; padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    /*font-family: Arial, Helvetica, sans-serif;*/
     text-decoration: none;
+    font-family: 'NanumSquareRound';
 }
 
 
@@ -26,8 +27,9 @@ header{
 
 .logo #logo_pic{width:80px; margin-top:90px;}
 .logo h1 .abc{width:80%; font-size:35px; position:relative; bottom:100px; left:90px;
-        color: rgba(50, 180, 0); font-family: 'Single Day', cursive;}
-.logo h1 .cba{width:80%; font-size:35px; position:relative; bottom:100px; left:90px; font-family: 'Single Day', cursive;}
+                color: rgba(50, 180, 0); font-family: 'Single Day', cursive;}
+.logo h1 .cba{width:80%; font-size:35px; position:relative; bottom:100px; left:90px; font-family: 'Single Day', cursive;
+                color: rgba(0, 0, 205, 0.9);}
 
 /* 로고설정 */
 header .logo{
@@ -51,16 +53,18 @@ header .navbar ul li{
 
 /* 앵커요소 설정 글씨 설정 */
 header .navbar ul li a{
-    font-size: 15px;
-    padding: 20px;
-    color: #333;
+    font-size: 21px;
+    padding: 12px 0;
+    color: rgba(0, 0, 205, 0.9);
     display: block;
+    font-family: 'Single Day', cursive;
 }
 
 /* 앵커선택되었을때 */
 header .navbar ul li a:hover{
-    background: #333;
-    color: #fff;
+    /*background: rgba(0, 0, 205, 0.9);*/
+    color: rgb(50, 180, 0);
+    border-bottom: 3px solid blueviolet;
 }
 
 /* position 간단한 설명
@@ -115,6 +119,18 @@ header label{
     display: initial;
 }
 */
+/* 태블릿 화면 */
+@media (min-width:1100px){
+    header .navbar ul li a{
+        font-size: 21px;
+        padding: 45px 17px;
+        color: darkslategray;
+        display: block;
+        font-family: 'Single Day', cursive;
+    }
+
+}
+
 
 /* 데스크탑우선으로 짜봤어요 최대~까지 적용 느낌이에요
    데스크탑 디바이스 (가로해상도가 992px 보다 작은 화면에 적용)
@@ -122,7 +138,7 @@ header label{
    태블릿 768 */
 @media(max-width:1100px){
     header{
-        padding: 20px;
+        padding-left: 20px;
     }
 
     header label{
@@ -145,7 +161,9 @@ header label{
         width: 100%;
     }
     header .navbar ul li a{
-    font-size: 15px;
+    font-size: 20px;
+    font-family: 'Single Day', cursive;
+
     }
 
     header .navbar ul li ul{
