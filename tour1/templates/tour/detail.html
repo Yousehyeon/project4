@@ -1,9 +1,5 @@
 {% extends 'base.html' %}
 {% load static %}
-
-{% block script %}
-
-{% endblock %}
 {% block content %}
 {% include 'header.html' %}
 <link rel="stylesheet" href="{% static 'tour/css/boardDetail.css' %}">
@@ -53,9 +49,9 @@
                 </div>
                 <!-- data-uri는 제이쿼리와 연동하는 부분 -->
                 <div class="board_detail_delete_button1_box">
-                    <a href=""
-                   data-uri="{% url 'tour:question_delete' question.id %}"
-                        class="board_detail_delete_button1">삭제</a>
+                    <a href="#"
+                       data-uri="{% url 'tour:question_delete' question.id %}"
+                       class="delete board_detail_delete_button1">삭제</a>
                 </div>
             </div>
             {% endif %}
@@ -105,9 +101,9 @@
                 </div>
                 <!-- data-uri는 제이쿼리와 연동하는 부분 -->
                 <div class="board_detail_delete_button2_box">
-                    <a href=""
-                   data-uri="{% url 'tour:answer_delete' answer.id %}"
-                        class="board_detail_delete_button2">삭제</a> <!-- 경로 수정해야하나 ? -->
+                    <a href="#"
+                       data-uri="{% url 'tour:answer_delete' answer.id %}"
+                       class="delete board_detail_delete_button2">삭제</a> <!-- 경로 수정해야하나 ? -->
                 </div>
             </div>
             {% endif %}
@@ -130,6 +126,9 @@
     <button type="button" class="board_detail_button" onclick="location.href='{% url 'tour:question_list' %}'">목록</button>
 </div>
 
+{% endblock %}
+
+{% block script %}
 <script>
     $(document).ready(function(){
         $('.delete').click(function(){
@@ -139,5 +138,4 @@
         });
     });
 </script>
-<script src="{% static 'tour/js/main_js.js' %}"></script>
 {% endblock %}

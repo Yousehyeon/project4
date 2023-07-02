@@ -6,7 +6,7 @@
     text-decoration: none;
     font-family: 'NanumSquareRound';
 }
-
+* .alert li{list-style:none; margin: 10px 0; color:red;}
 
 /*
 box-shadow : 요소의 테두리를 감싼 그림자 정의가 가능합니다
@@ -55,7 +55,7 @@ header .navbar ul li{
 header .navbar ul li a{
     font-size: 21px;
     padding: 12px 0;
-    color: rgba(0, 0, 205, 0.9);
+    color: darkslategray;
     display: block;
     font-family: 'Single Day', cursive;
 }
@@ -145,6 +145,7 @@ header label{
         display: initial;
         position:absolute;
         right: 30px;
+        padding: 10px 15px;
 
     }
 

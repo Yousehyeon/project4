@@ -25,9 +25,13 @@
 
 <!-- 제이쿼리 영역 -->
 {% block script %}
+<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+
 <script>
-        $("#gotop").click(function () {
-          $("html").animate({ scrollTop: 0 }, 800);
+        $(document).ready(function() {
+            $("#gotop").click(function () {
+                $("html").animate({ scrollTop: 0 }, 800);
+            });
         });
 </script>
 {% endblock %}

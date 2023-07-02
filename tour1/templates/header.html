@@ -40,9 +40,16 @@
                     {% endif %}
                 </li>
                 <li><a href="{% url 'common2:signup' %}">회원가입</a></li>
-                <li><a href="#">도움말</a></li>
+                <li><a href="#" onclick="openHelp()">도움말</a></li>
+                <!--<li><a href="}{% static 'tour/help.html' %">도움말</a></li>-->
                 <!--<li>[ <span id="demo"></span> ]</li>-->
             </ul>
         </div>
+        <script>
+            function openHelp() {
+                var helpWindow = window.open("{% static 'tour/help.html' %}", "_blank", "width=650, height=600");
+                helpWindow.focus();
+            }
+        </script>
     </header>
 </div>
