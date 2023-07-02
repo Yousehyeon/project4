@@ -14,8 +14,8 @@ window.onload = function(){
 
 
 /* 메인사진변경함수 */
-let picture = ["../static/tour/images/sokcho1.jpg", "../static/tour/images/sokcho2.jpg", "../static/tour/images/sokcho3.jpg",
-                "../static/tour/images/gangneung1.png", "../static/tour/images/gangneung2.jpg", "../static/tour/images/gangneung3.jpg" ];
+let picture = ["../static/tour/images_min/kyongbuk/울릉도독도.jpg", "../static/tour/images_min/kyongbuk/경북월정교.jpg", "../static/tour/images_min/ulsan/선바위.jpg",
+                "../static/tour/images3/서울/seoul2.jpg", "../static/tour/images/메인1.jpg", "../static/tour/images/메인2.jpg" ];
 
 //사진 변경 스크립트 원본
 let imgIdx = 0;

@@ -9,7 +9,7 @@
 <div class="container">
 
     <h1>REVIEW</h1>
-    <p class="p1">그린 투어와 함께한 후기를 남겨주세요</p>
+    <p class="p1">당신의 행복했던 여행후기를 남겨주세요!</p>
 
     <section id="board_main">
         <table class="board_main_table">
@@ -27,7 +27,7 @@
             {% if question_list %}
                 {% for question in question_list %}
                 <tr>
-                    <td>{{ forloop.counter }}</td>
+                    <td>{{ question_list.paginator.count|sub:question_list.start_index|sub:forloop.counter0|add:1 }}</td>
                     <!-- 제목 -->
                     <td>
                         <a href="{% url 'tour:detail' question.id %}">
@@ -51,18 +51,18 @@
             <!-- 이전 페이지 -->
             {% if question_list.has_previous %}
                 <li class="page-item">
-                    <a class="page-link" href="?page={{ question_list.previous_page_number }}">&laquo;</a>
+                    <a class="page-link" href="?page={{ question_list.previous_page_number }}"><i class="fa-solid fa-angle-left"></i></a>
                 </li>
             {% else %}
                 <li class="page-item-disabled">
-                    <a class="page-link" href="">&laquo;</a>
+                    <a class="page-link" href=""><i class="fa-solid fa-angle-left"></i></a>
                 </li>
             {% endif %}
 
             <!-- 현재 페이지-->
             {% for page_number in question_list.paginator.page_range %}
                 {% if page_number == question_list.number %}
-                    <li class="page-item">
+                    <li class="page-item current-page">
                         <a class="page-link" href="?page={{ page_number }}">{{ page_number }}</a>
                     </li>
                 {% else %}
@@ -75,18 +75,18 @@
             <!-- 다음 페이지 -->
             {% if question_list.has_next %}
                 <li class="page-item">
-                    <a class="page-link" href="?page={{ question_list.next_page_number }}">&raquo;</a>
+                    <a class="page-link" href="?page={{ question_list.next_page_number }}"><i class="fa-solid fa-angle-right"></i></a>
                 </li>
             {% else %}
                 <li class="page-item-disabled">
-                    <a class="page-link" href="">&raquo;</a>
+                    <a class="page-link" href=""><i class="fa-solid fa-angle-right"></i></a>
                 </li>
             {% endif %}
 
         </ul>
         <div>
         <a href="{% url 'tour:question_create' %}"
-               class="board_main_q_btn">질문 등록</a>
+               class="board_main_q_btn">여행 후기 등록</a>
         </div>
     </section>
     <div>

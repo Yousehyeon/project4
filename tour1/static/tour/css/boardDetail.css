@@ -70,7 +70,9 @@ font-family: 'Do Hyeon', sans-serif;
 
 .photo > img{
     width: 100%;
-    height: 180px;
+    /*height: 180px;*/
+    height: auto;
+    max-width:500px;
 }
 
 .board_detail_answer_content{
@@ -81,7 +83,8 @@ font-family: 'Do Hyeon', sans-serif;
     display: inline-block;
     padding: 20px;
     border-radius: 20px;
-    background-color: #f0f0f0;
+    background-color: #FFBCBC;
+    /*background-color: #f0f0f0;*/
     box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.3);
 }
 
@@ -103,7 +106,8 @@ font-family: 'Do Hyeon', sans-serif;
     margin-left: -15px;
     border-width: 15px;
     border-style: solid;
-    border-color: #f0f0f0 transparent transparent transparent;
+    border-color: #FFBCBC transparent transparent transparent;
+    /*border-color: #f0f0f0 transparent transparent transparent;*/
     /*#f0f0f0*/
 }
 
@@ -117,7 +121,7 @@ font-family: 'Do Hyeon', sans-serif;
     /*margin: 20px 0 0 0;
     padding: 7px 7px 7px 7px;*/
 
-    margin-top: 10px;
+    margin-top: 7px;
 }
 
 
@@ -186,6 +190,7 @@ font-family: 'Do Hyeon', sans-serif;
     /*margin: 55px auto 0 auto;*/
     display: flex;
     justify-content: flex-end;
+    align-items: flex-end;
     /*align-items: flex-start; 아래쪽으로 붙어버림 */
     /*align-items: center; 중앙정렬 */
     /*border: 1px solid orange; 오렌지 */
@@ -231,8 +236,8 @@ font-family: 'Do Hyeon', sans-serif;
     padding: 10px 0;
     text-align: center;
     border-radius: 7px;
-    border: 1px solid #EFEFEF;
-    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.25)
+    /*border: 1px solid #EFEFEF;*/
+    box-shadow: 0px 0px 5px 3px rgba(255, 124, 124, 0.4);
 
     position: relative;
     }
@@ -317,7 +322,7 @@ font-family: 'Do Hyeon', sans-serif;
         height: auto;
         }
 
-    .photo > img{height: 180px;}
+    .photo > img{width: 100%; height: auto; max-width:750px;}
 
     /*=========== 질문자 ID/수정일 text/날짜 공통 ===========*/
     .board_detail_answer_author_create_date,
@@ -374,6 +379,6 @@ font-family: 'Do Hyeon', sans-serif;
         height: auto;
         }
 
-    .photo > img{height: 180px;}
+    .photo > img{width: 100%; height: auto; max-width: 800px;}
 
 }
