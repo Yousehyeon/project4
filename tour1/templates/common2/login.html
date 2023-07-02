@@ -5,7 +5,8 @@
 <link rel="stylesheet" href="{% static 'tour/css/login.css' %}">
 <div class="login-page">
     <div class="form">
-
+        <h2 style="color:#4CAF50;">L o g i n</h2>
+        <br>
         <!-- 로그인 폼 -->
         <form action="" method="post" class="login-form">
             {% csrf_token %}
@@ -20,13 +21,13 @@
                 <input type="password" id="password" name="password" placeholder="password"
                        value="{{ form.username.value|default_if_none:'' }}">
             </div>
+            <br>
             <button type="submit">로그인</button>
-            <div class="row">
-                <br>
-                <div class="col-8 text-end"> <!-- 위에 col-4가 있어서 8빼고 col 만 넣어도 됨 -->
-                    <span>
-                        또는 <a href="{% url 'common2:signup' %}">계정</a>을 만드세요
-                    </span>
+            <div>
+                <div> <!-- 위에 col-4가 있어서 8빼고 col 만 넣어도 됨 -->
+                    <p class="message">
+                        또는 <a href="{% url 'common2:signup' %}">계정</a> 을 만드세요
+                    </p>
                 </div>
             </div>
         </form>
