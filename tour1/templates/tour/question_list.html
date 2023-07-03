@@ -32,6 +32,9 @@
                     <td>
                         <a href="{% url 'tour:detail' question.id %}">
                             {{ question.subject }}
+                        {% if question.answer_set.count > 0 %}
+                        <span class="comment"> [{{ question.answer_set.count }}]</span>
+                        {% endif %}
                         </a>
                     </td>
                     <!-- 글쓴이 -->
